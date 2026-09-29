@@ -1,0 +1,24 @@
+# Generated website and release output
+/dist/
+/release/
+/docs/routes.json
+
+# Local tool caches
+node_modules/
+.wrangler/
+.sites-runtime/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Credentials and local settings
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Local visual evidence (may contain dashboard/account UI)
+/docs/validation/*.png

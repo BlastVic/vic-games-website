@@ -1,0 +1,22 @@
+{
+  "name": "vic-games-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "release": "npm run build && npm run check && python3 scripts/package-release.py",
+    "deploy": "npm run release && npx wrangler@4.86.0 deploy"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Vic Yang independent games website \u2014 English and Chinese static site",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BlastVic/vic-games-website.git"
+  },
+  "homepage": "https://vic-games.tigerywy.workers.dev/"
+}

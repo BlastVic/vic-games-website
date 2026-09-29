@@ -1,0 +1,307 @@
+{
+  "origin": "https://vic-games.tigerywy.workers.dev",
+  "time": "2026-09-29T00:47:15.215Z",
+  "pass": true,
+  "findings": [
+    {
+      "path": "/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/b20/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/b20/privacy/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/b20/terms/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/b20/support/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/coin-pusher-monster-siege/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/coin-pusher-monster-siege/privacy/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/coin-pusher-monster-siege/terms/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/games/coin-pusher-monster-siege/support/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/support/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/support/deletion/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/404/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/b20/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/b20/privacy/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/b20/terms/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/b20/support/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/coin-pusher-monster-siege/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/coin-pusher-monster-siege/privacy/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/coin-pusher-monster-siege/terms/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/games/coin-pusher-monster-siege/support/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/privacy/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/terms/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/support/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/support/deletion/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/zh/404/",
+      "status": 200,
+      "titleMatches": true,
+      "sameOrigin": true,
+      "canonical": true,
+      "pass": true
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/support.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/assets/b20-laboratory.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/assets/coin-background.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/assets/coin-logo.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "unknown-route",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "header": "x-content-type-options",
+      "value": "nosniff",
+      "pass": true
+    },
+    {
+      "header": "x-frame-options",
+      "value": "DENY",
+      "pass": true
+    },
+    {
+      "header": "content-security-policy",
+      "value": "default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "pass": true
+    }
+  ]
+}
