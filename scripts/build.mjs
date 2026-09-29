@@ -1,6 +1,7 @@
 import {mkdir,readFile,writeFile,cp,rm} from 'node:fs/promises';
 import {site,games} from '../src/site.mjs';
 import {policyContent} from '../src/policies.mjs';
+import {coinDeletion} from '../src/coin-deletion.mjs';
 if (site.origin && (!/^https:\/\/[^/]+$/.test(site.origin))) throw Error('SITE_ORIGIN must be an HTTPS origin without a trailing slash');
 const out=new URL('../dist/',import.meta.url);
 await mkdir(out,{recursive:true});
@@ -31,6 +32,7 @@ await page('',t('Independent games, made to play','独立游戏，为乐趣而�
 await page('games',names.games,t('Explore games by Vic Yang.','探索 Vic Yang 的游戏作品。'),`<div class="page-heading"><p class="eyebrow">${t('THE COLLECTION','游戏作品')}</p><h1>${t('A little escape.<br>A lot to discover.','片刻放松，<br>更多发现。')}</h1><p class="intro">${t('Find a new challenge, a curious world, or your next “just one more round”.','寻找新的挑战、奇妙的世界，或是你的下一次“再玩一局”。')}</p></div><section class="section"><div class="games-grid">${games.map(card).join('')}</div></section>${help()}`);
 for(const g of games){
  const base='games/'+g.slug;
+ if(g.slug==='coin-pusher-monster-siege') await page(base+'/delete-data',t('Request data deletion','请求删除数据'),t('Request deletion of Coin Pusher: Monster Siege data from Vic Yang. No login required.','向 Vic Yang 请求删除推币机：怪物围城相关数据，无需登录。'),doc(coinDeletion({lang,site,g,url})));
  await page(base,g.name[lang],g.description[lang],`<div class="breadcrumb">${link('games',t('All games','全部游戏'))} / ${g.name[lang]}</div><section class="detail-hero"><div><p class="eyebrow">${g.category[lang]}</p><span class="pill">${g.status[lang]}</span><h1>${g.headline[lang].replace('\n','<br>')}</h1><h2 class="game-title">${g.name[lang]}</h2><p class="intro">${g.description[lang]}</p><div class="actions">${g.storeUrl?`<a class="button" href="${g.storeUrl}">Google Play</a>`:g.downloadUrl?`<a class="button" href="${g.downloadUrl}">${t('Get it on itch.io','前往 itch.io 获取')}</a>`:`<span class="pill">${t('Coming to mobile','即将登陆移动端')}</span>`}${link(base+'/support',t('Game support','游戏支持'),'button secondary')}</div><p class="release-note">${g.state==='early-access'?t('Google Play testing is invitation-only. Check itch.io for current download availability.','Google Play 目前为邀请测试。最新下载信息请查看 itch.io。'):t('Public release is in preparation. Store links will appear here when available.','公开版本正在准备中。发布后将在这里提供商店链接。')}</p><div class="facts">${g.facts[lang].map(f=>`<span>${f}</span>`).join('')}</div></div>${art(g,'detail-art')}</section><section class="features">${g.features[lang].map(([h,p],i)=>`<article><span class="num">0${i+1} /</span><h3>${h}</h3><p>${p}</p></article>`).join('')}</section><section class="help-strip"><div><h3>${t('Your game. Your information.','你的游戏，你的信息。')}</h3><p>${t('Privacy details and help, specific to this game.','查阅这款游戏的隐私说明并获取帮助。')}</p></div><div class="actions">${link(base+'/privacy',names.privacy,'text-link')}${link(base+'/terms',names.terms,'text-link')}${link(base+'/support',names.support,'text-link')}</div></section>`);
  for(const type of ['privacy','terms','support']){
   let body;
