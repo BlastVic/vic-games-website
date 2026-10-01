@@ -90,3 +90,11 @@ Chrome 扩展未开放 file-URL 权限，直接工具上传失败；已通过原
 ## 素材来源
 
 仅复制网站美术，不包含游戏工程或签名配置：B20 图片来自 `minigames/Website/b20-stress-test/dist/`，推币机背景与 Logo 来自 `coin-bloast/Assets/Resources/UI/Loading/`。素材为现有游戏美术，不宣称为实际游玩截图。原 B20 文件来自其 Website/content 和 policy-status.json。
+
+## app-ads.txt 发布 — 2026-10-01
+
+- 根目录新增 `public/app-ads.txt`，内容为 AdMob 后台提供的 `google.com, pub-4589227210093067, DIRECT, f08c47fec0942fa0`。
+- 构建与检查通过：32 页面、674 内部链接/素材/锚点；发布包 44 文件，SHA256 `4b8edc26ce7ff031a9bbc7708583b86bb95e3ca3a8e8a7ef2ec3220eb5112e3b`。
+- Cloudflare 部署 `41e66442` 已承接 100% 流量，仍为静态资源、无绑定、Logs/Traces Disabled。
+- 公开地址 `https://vic-games.tigerywy.workers.dev/app-ads.txt` 经 HTTP 检查返回 200、`text/plain`，响应字节与源码完全一致。Chrome 当前打开该路径报告 ERR_BLOCKED_BY_CLIENT，未变更浏览器防护设置；HTTP 访问验证成功。
+- 文件发布不等同于 AdMob 验证通过；仍需完成 Google Play 商店关联、确保商店开发者网站使用此域名，并等待 Google 抓取验证。本轮未修改商店字段或审核状态。
