@@ -1,3 +1,16 @@
+# 2026-10-01 广告隐私说明更新
+
+- 已部署到现有 vic-games 静态站，版本 `f0402537`，100% 流量；无绑定，Workers Logs / Traces 保持 Disabled。
+- 网站源码提交 `ee77c22`：推币机中英文 AdMob / UMP、广告预加载、数据类别、独立隐私选择、购买与广告数据请求说明。保留尚未完成发布核验的提示。
+- 43 个公开文件，ZIP SHA256 `914dae493e4c94ea6623601828de098863b22ff48da16ce992d6817ba648c25e`。
+- `npm run build` / `npm run check` 通过：32 页面、674 内部链接/资源/片段。Chrome 验证线上中英文隐私内容及语言切换。命令行 HTTP 检查被 403 拒绝，未将其记为通过。
+- AdMob 欧洲法规消息已发布：英语默认，加中文简体、日语、德语、俄语、法语、葡萄牙语（葡萄牙）、西班牙语、意大利语；同意 / 不同意 / 管理选项。其他语言由 Google 工具的可用语言和回退规则决定。
+- AdMob 美国州级消息已发布：所有当前及未来受支持州，英语（美国）及两种西班牙语选项，提供拒绝出售或分享选择。仅关联 Coin Pusher Monster Siege。
+- AdMob 隐私链接为游戏专属英文政策地址。消息发布后最多需要 1 小时生效；尚未验证区域模拟设备上的实际弹窗。
+- 未修改广告合作伙伴名单、开启跨应用同意同步或开启额外 Consent Mode。Firebase 开关保持独立。
+- 账号仍显示审核中、应用尚待关联商店；正式广告投放准备未完成。Google Play Data safety 还需与加入广告后的实际数据处理同步，本轮未提交该表单。
+- 内容依据：当前游戏 AdMob manager、设置页广告隐私入口、Android 权限移除构建器；Google SDK 文档 https://developers.google.com/admob/unity/privacy 和 https://developers.google.com/admob/unity/privacy/play-data-disclosure 。
+
 # 发布进度 — 2026-09-29
 
 ## 当前结果：已上线
