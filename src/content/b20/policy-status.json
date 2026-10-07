@@ -1,7 +1,7 @@
 {
   "status": "final",
-  "revision": "2026-09-14",
-  "reviewNotice": "<aside class=\"notice\"><strong>Android early-access privacy notice — effective September 14, 2026.</strong>This notice describes the current Android build. Early access does not reduce your privacy rights. Contact the developer if the app behaves differently from the choices described here.</aside>",
-  "agePrivacy": "<p>The current Android build asks for an age range on each launch, without saving that answer or asking for a date of birth. Players under 13 cannot proceed. Ages 13–17 can use local play only; adults choose separately whether to start online services, with separate choices for optional reporting. This is a self-declared age gate, not identity-based age verification or a parental-consent system. Earlier private test builds may not have this gate. Where local law imposes higher eligibility or additional safeguards, those requirements still apply.</p>",
-  "ageTerms": "<p>The current Android build does not allow players under 13 to proceed. Players aged 13–17 are limited to local play; adults choose separately whether to use online features. Optional reporting remains a separate choice. These self-declared age choices are not a verified parental-consent system.</p>"
+  "revision": "2026-10-07",
+  "reviewNotice": "<aside class=\"notice\"><strong>Android game notice — updated October 7, 2026.</strong>Originally effective September 14, 2026. This update covers rewarded advertising, theme purchases, refunds and the current online startup behavior. Features may vary between older test builds and the current version.</aside>",
+  "agePrivacy": "<p>The current build starts online services by default and does not display the earlier per-launch age selection or enforce its former teen-only local mode. It does not verify age or provide a parental-consent system. The intended audience remains ages 13 and above; users must meet higher regional requirements. Advertising privacy prompts are not age verification.</p>",
+  "ageTerms": "<p>The current build starts online services by default. It does not provide age verification or a parental-consent system. The earlier age-selection screen and teen-only local mode are not part of the current startup flow. Optional Firebase reporting and advertising privacy choices are managed separately.</p>"
 }

@@ -41,7 +41,7 @@ for(const g of games){
    const replacements={review_notice:policy.reviewNotice,age_privacy:policy.agePrivacy,age_terms:policy.ageTerms};
    body=(await readFile(new URL(`../src/content/b20/${type}.html`,import.meta.url),'utf8')).replace(/\{\{(\w+)\}\}/g,(_,key)=>{if(!(key in replacements))throw Error('Unknown placeholder '+key);return replacements[key]}).replace(/href="\/(privacy|terms|support)\//g,(_,part)=>`href="${url(base+'/'+part)}`).replace(/ <span aria-hidden="true">↗<\/span>/g,'');
    body=body.replace('<article class="document">','<article class="document" lang="en">');
-   const n=t('This document preserves B20’s game-specific terms from its existing website (September 24, 2026). Website hosting and support on this developer site are also covered by the shared notice effective September 29, 2026. The game’s data practices and original effective date have not been changed by this website migration.','本文件保留 B20 原站的英文游戏条款（2026 年 9 月 24 日版）。本开发者网站的托管与客服另适用 2026 年 9 月 29 日生效的统一说明。本次网站迁移未改变游戏数据行为与原生效日期。');
+   const n=t('B20 game-specific notice, updated October 7, 2026. Originally effective September 14, 2026. The shared developer-site notice separately covers website hosting and support.','B20 游戏专属英文说明，2026 年 10 月 7 日更新，原生效日期为 2026 年 9 月 14 日。本页正文保留英文；网站托管与客服另适用开发者网站通用说明。');
    body=body.replace(/(<article[^>]*>)/,`$1<aside class="notice" lang="${lang==='zh'?'zh-Hans':'en'}">${n} ${link('privacy',names.privacy)}</aside>`);
   }else{
    body=policyContent(type==='support'?'game-support':'pending-'+type,{lang,g,site,url,email});
