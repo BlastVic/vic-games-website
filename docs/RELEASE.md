@@ -1,3 +1,17 @@
+# 2026-10-07 B20 政策与后台同步
+
+- B20 隐私政策和条款已更新至 2026-10-07，保留原 2026-09-14 生效日期。覆盖 AdMob/UMP、预加载、广告数据共享、Unity IAP/Google Play、当前在线启动行为及独立 Firebase 选择。
+- 退款规则：撤销有效购买权益，保留存档中已解锁游戏；退款后新增游戏不再由旧订单自动解锁，恢复进度与恢复有效购买分别处理。
+- 源码提交 `420f7c3`；Cloudflare `vic-games` 部署 `14383813`，静态资源、无绑定、Logs/Traces Disabled。发布 ZIP 共 44 文件，SHA256 `2219260e7615eb95221775022abea6ecc5ca4f8b892129a3fb19cd7751926aea`。
+- 构建与内部检查通过：32 页面、674 链接/资源/片段。上线 HTTP 检查 44/44 通过，见 `docs/validation/live-check-b20-20261007.json`。Chrome 核对政策日期、中英文切换、退款条款及删除说明。
+- Google Play：隐私政策 URL 已为新站，开发者网站已为新站根域名；删除账号和部分数据删除 URL 从旧站改为 `/games/b20/support/#deletion`。包含广告为“是”。
+- Google Play 数据安全表补齐账号、购买、AdMob/Firebase/Unity SDK 相关数据类别；12 种语言商店完整说明删除“无广告”及旧青少年仅限本地模式说明，改为可选激励广告与一次性主题购买。这 13 项元数据更改已提交审核；未上传或发布游戏包。
+- 广告 ID 已补充分析与防欺诈用途，保留广告用途，并并入本次审核。审核通过前不视为商店公开页面已更新。
+- Unity Player Accounts 的隐私政策、服务条款 URL 均已是新站 B20 专属地址，本轮核对，无需重复修改。
+- B20 欧洲和美国州 UMP 消息已发布。欧洲覆盖 EEA/英国/瑞士，英语及 8 种其他语言，同意/不同意/管理选项；美国覆盖当前和未来支持的所有州，英语（美国）及两种西班牙语选项。仅关联 B20，未修改 Coin Pusher 或账号级合作伙伴配置。平台提示生效最多需 1 小时；设备端弹窗、撤回选择及广告加载仍需单独验收。
+- 内容分级仍需重新核对新增内购；进入问卷发现必须重新接受 IARC 使用条款，已停在该确认步骤，未替用户接受协议或提交新分级。
+- 官方数据披露参考：Google Mobile Ads Android Play data disclosure、Unity IAP 5.4+ Google Play Data safety、Google Play Data safety definitions、Firebase Privacy。表单按当前源码与 SDK 文档核对，未宣称完成网络流量审计。
+
 # 2026-10-01 广告隐私说明更新
 
 - 已部署到现有 vic-games 静态站，版本 `f0402537`，100% 流量；无绑定，Workers Logs / Traces 保持 Disabled。
