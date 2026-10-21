@@ -1,3 +1,12 @@
+# 2026-10-21 Red Ever After 上线
+
+- 已部署中英文游戏介绍、隐私政策、条款、客服与邮件数据删除页面。版本 `bbf8bf3e`，Ready，100% 流量。
+- 源码 `a7c38bc` 已合并并推送 main；55 文件发布包 SHA256 `18b5afc120be1ad37bc2dc1703791896c64830f4148ca8f842f5c8c69b2165da`。
+- 54/54 线上检查通过，新增 10 页面及美术/app-ads.txt 共 12 项与本地文件完全一致。
+- 隐私： https://vic-games.tigerywy.workers.dev/games/red-ever-after/privacy/
+- 删除： https://vic-games.tigerywy.workers.dev/games/red-ever-after/delete-data/
+- 纯静态资源、0 bindings、Logs/Traces Disabled。详情见 RED-EVER-AFTER.md。未修改 Google Play 表单。
+
 # 2026-10-07 B20 政策与后台同步
 
 - B20 隐私政策和条款已更新至 2026-10-07，保留原 2026-09-14 生效日期。覆盖 AdMob/UMP、预加载、广告数据共享、Unity IAP/Google Play、当前在线启动行为及独立 Firebase 选择。

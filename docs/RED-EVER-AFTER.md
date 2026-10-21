@@ -1,6 +1,6 @@
 # Red Ever After: Idle RPG website pages
 
-Prepared 2026-10-21 in vic-games. Local source update only; not deployed.
+Prepared 2026-10-21 in vic-games. Deployed to Cloudflare on 2026-10-21; version bbf8bf3e, Ready, 100% traffic.
 
 ## Routes
 
@@ -33,4 +33,13 @@ public/assets/red-ever-after.png is a self-contained copy of the existing game i
 - Generated English/Chinese request links contain the correct email, game-specific subject and localized body.
 - Existing uncommitted docs/validation/live-check.json was not included in this change.
 
-Deployment is separate. The public origin remains https://vic-games.tigerywy.workers.dev; the new URLs are not live until dist is deployed. No Google Play fields, SDKs, Firebase/AdMob settings or Unity files were modified.
+The public origin is https://vic-games.tigerywy.workers.dev; all new English and Chinese URLs are live. No Google Play fields, SDKs, Firebase/AdMob settings or Unity files were modified.
+
+## Live verification — 2026-10-21
+
+- Source a7c38bc merged and pushed to main. Uploaded 55-file release ZIP; SHA256 18b5afc120be1ad37bc2dc1703791896c64830f4148ca8f842f5c8c69b2165da.
+- Cloudflare version bbf8bf3e: Ready, 100% traffic; static assets only, bindings 0, Logs/Traces Disabled.
+- 54/54 live HTTP, metadata, asset, 404 and security-header checks passed.
+- All 10 Red Ever After pages and the artwork/app-ads.txt returned 200 and matched local build bytes exactly (12/12).
+- Browser confirmed public privacy → deletion navigation, mailto recipient/subject/body, and English → Chinese deletion page switch. No email sent.
+- Evidence: live-check-red-ever-after-20261021.json and red-ever-after-live-content-20261021.json under docs/validation. Browser screenshots remain ignored local files.

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/games/red-ever-after/delete-data/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/games/red-ever-after/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/games/red-ever-after/privacy/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/games/red-ever-after/terms/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/games/red-ever-after/support/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/zh/games/red-ever-after/delete-data/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/zh/games/red-ever-after/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/zh/games/red-ever-after/privacy/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/zh/games/red-ever-after/terms/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/zh/games/red-ever-after/support/",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/assets/red-ever-after.png",
+    "status": 200,
+    "exactMatch": true
+  },
+  {
+    "path": "/app-ads.txt",
+    "status": 200,
+    "exactMatch": true
+  }
+]
