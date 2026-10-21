@@ -1,13 +1,13 @@
 // Game-specific disclosures; future SDK behavior must not be presented as live.
 export const redEverAfter = {
  slug:'red-ever-after', name:{en:'Red Ever After: Idle RPG',zh:'Red Ever After: Idle RPG'}, short:'RED EVER AFTER',
- category:{en:'DARK FAIRYTALE RPG',zh:'暗黑童话 RPG'}, status:{en:'In development',zh:'开发中'}, state:'development',
+ category:{en:'DARK FAIRYTALE RPG',zh:'暗黑童话 RPG'}, status:{en:'Closed testing in preparation',zh:'封闭测试准备中'}, state:'closed-test-preparation',
  art:'red-ever-after.png', artAlt:{en:'A girl in a red cloak carrying a lantern into a dark forest',zh:'披着红斗篷的少女提灯走入黑森林'},
  headline:{en:'The wolves are\nonly the beginning.',zh:'狼，\n只是故事的开始。'},
  description:{en:'Wear the red cloak. Battle twisted creatures, collect gear, and follow a trail of secrets through a fairytale that has forgotten how to end happily.',zh:'披上红斗篷，迎战扭曲的怪物，收集装备，沿着线索走入一个遗忘了幸福结局的童话。'},
  storeUrl:null, downloadUrl:null, policy:'red-ever-after',
  features:{en:[['Follow the trail','Venture through shadowy forests and ruined villages. Look for clues to a story that feels terribly wrong.'],['Make every reward count','Choose equipment across five gear slots and develop your attributes and skills for the next encounter.'],['Return stronger','Challenge monsters and bosses, take shelter between battles, and revisit stages to prepare for the road ahead.']],zh:[['沿着线索深入','穿过黑森林与荒废村庄，寻找故事中那些令人不安的线索。'],['让每份战利品发挥作用','搭配五类装备，分配属性和技能点，为下一场遭遇做好准备。'],['变强，再次出发','挑战怪物与首领，在战斗间歇返回营地，重访关卡，为前路积蓄力量。']]},
- facts:{en:['Android','Equipment & skill progression','Release in preparation'],zh:['Android','装备与技能成长','准备发布中']}
+ facts:{en:['Android','Equipment & skill progression','Closed testing in preparation'],zh:['Android','装备与技能成长','封闭测试准备中']}
 };
 
 export function redDocument(type,{lang,site,g,url}) {

@@ -7,7 +7,7 @@ Vic Yang 个人独立游戏品牌官网。**本仓库是网站源码、游戏介
 - **源码仓库：** [BlastVic/vic-games-website](https://github.com/BlastVic/vic-games-website)
 - **部署目标：** Cloudflare Workers 静态站 `vic-games`
 
-网站包含品牌首页、作品列表、B20 与《推币机：怪物围城》的介绍，以及统一的隐私、服务条款、客服和数据请求入口。英文为默认语言，中文使用 `/zh/` 路径。无需登录，无网站统计、追踪 Cookie 或第三方字体。
+网站包含品牌首页、作品列表、B20、《推币机：怪物围城》与 Red Ever After 的介绍，以及统一的隐私、服务条款、客服和数据请求入口。英文为默认语言，中文使用 `/zh/` 路径。无需登录，无网站统计、追踪 Cookie 或第三方字体。
 
 ## 快速开始
 
@@ -28,6 +28,8 @@ npm run dev
 | 路径 | 用途 |
 | --- | --- |
 | `src/site.mjs` | 品牌、联系方式、正式域名、游戏列表、双语介绍与商店链接 |
+| `src/showcases.mjs` | 各游戏的双语详细介绍、玩法、截图说明与常见问题 |
+| `src/showcase-templates.mjs` | 共享首页、作品列表和游戏详情模板 |
 | `src/policies.mjs` | 统一政策、客服及数据删除说明 |
 | `src/coin-notice.mjs` | 推币机开发版本的数据处理说明 |
 | `src/content/b20/` | B20 已有游戏专属政策原文与状态 |
@@ -71,7 +73,8 @@ git push -u origin HEAD
 - 新增游戏必须提供对应的英文、中文字段和真实素材；不要随意更换已对外使用的路径。
 - `storeUrl` / `downloadUrl` 未开放时保持 `null`，不填写猜测的商店链接。
 - `policy: 'pending'` 仅用于未定稿状态。新增游戏还需要在政策生成逻辑中提供该游戏自己的说明，不能复用推币机或 B20 的数据声明。
-- 首页推荐区当前专门展示 B20，在 `scripts/build.mjs` 中维护；它不是仅修改数组顺序即可自动切换的推荐位。
+- 首页与详情展示使用 `src/showcase-templates.mjs`，各游戏的 `showcase` 内容由 `src/showcases.mjs` 提供；首页先展示已上线作品，再展示准备测试的作品。
+- 截图及封面使用仓库内 WebP；来源和尺寸记录在 `docs/SHOWCASE-ASSETS.json`，不在构建时读取 Unity 工程。
 - 游戏已发布时，应根据实际 SDK、账号、购买和数据处理行为定稿专属政策。
 
 修改邮箱或正式域名统一从 `src/site.mjs` 入手。构建会同步客服脚本收件人和页面元数据。语言切换通过页面路径实现，不保存浏览器偏好。
@@ -119,7 +122,8 @@ node scripts/verify-live.mjs https://vic-games.tigerywy.workers.dev
 
 - 网站通用政策适用于网站与客服，不代表每款游戏的数据行为相同。
 - B20 保留原英文政策及原生效日期，中文导航下也明确展示英文原文。
-- 推币机仍为开发版本说明，标记 `noindex`；最终安装包、后台保留设置、年龄范围和购买行为尚需核对，不能当作已完成的正式游戏政策提交。
+- B20 和推币机已在 Google Play 上线；Red Ever After 正在准备封闭测试。
+- 推币机的隐私及条款仍为待核对文件，保留 `noindex`；最终安装包、后台保留设置、年龄范围和购买行为尚需核对，不能当作已定稿政策。
 - Google Play 的页面地址及发布待办见 [发布说明](docs/RELEASE.md) 和 [推币机数据核对](docs/COIN-RELEASE-AUDIT.md)。
 
 ## 素材与使用范围

@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-21",
+  "notes": "Local game assets resized and WebP-encoded only. Screenshots are Unity runtime captures, not device certification. Red Ever After uses English test-build captures on both language routes, labeled in the gallery. Source paths are provenance only; build is self-contained.",
+  "assets": [
+    {
+      "file": "public/assets/showcase/b20-lab-en.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/en/phone/en_phone_00_mad-experiments_menu.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 135230,
+      "sha256": "ea2ac494c0a96e2ce476cc45723631fdd47fe8c92f65f0e1afe0975191ae1c54"
+    },
+    {
+      "file": "public/assets/showcase/b20-shrink-en.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/en/phone/en_phone_14_shrink-ray_d5.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 155432,
+      "sha256": "b4a1a8b8a441a97ac71718fa2a3ee60cade04c81dbf5bcdbd0cbd1c18a3f51d6"
+    },
+    {
+      "file": "public/assets/showcase/b20-subway-en.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/en/phone/en_phone_32_subway-dash_d5.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 95410,
+      "sha256": "beb30b3166425515075d3c720fa3efda370d7549103e1cbee72c512ce2f88143"
+    },
+    {
+      "file": "public/assets/showcase/b20-fry-en.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/en/phone/en_phone_36_last-fry_d5.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 103862,
+      "sha256": "67778bbb94f972d33a346dc022ba19d00256ddf4891d756d55eb32211754e817"
+    },
+    {
+      "file": "public/assets/showcase/b20-lab-zh.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/zh-CN/phone/zh-CN_phone_00_mad-experiments_menu.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 137228,
+      "sha256": "8fe9a52bd9782f4c120b94e396a5a00d61dfaa051d1da24590e09e3c6dc3af96"
+    },
+    {
+      "file": "public/assets/showcase/b20-shrink-zh.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/zh-CN/phone/zh-CN_phone_14_shrink-ray_d5.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 155460,
+      "sha256": "9e63114eb0f12452d44afa6c442c46d6494bd06086a0687949cfa1140fe4a8d9"
+    },
+    {
+      "file": "public/assets/showcase/b20-subway-zh.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/zh-CN/phone/zh-CN_phone_32_subway-dash_d5.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 91968,
+      "sha256": "2d836155b3187796ea446dd745fd60839d8f7f5f40af2df8976a0759798a06fe"
+    },
+    {
+      "file": "public/assets/showcase/b20-fry-zh.webp",
+      "source": "minigames/Release/GooglePlayScreenshots/2026-10-06/zh-CN/phone/zh-CN_phone_36_last-fry_d5.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 103370,
+      "sha256": "2bc3f380bfd50498ca7b6d206dd093bb2fbc1566c742054f56cb7b91b0c102e0"
+    },
+    {
+      "file": "public/assets/showcase/coin-table-en.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/en-US/en-US-01-coin-pusher.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 198692,
+      "sha256": "d4c1037a605f969aaf20e0cd3422e0b9fefd3ee4cfa6cb740974154c2104bc43"
+    },
+    {
+      "file": "public/assets/showcase/coin-skills-en.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/en-US/en-US-02-powerups.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 91348,
+      "sha256": "3537cd5953293a3b36c0a91a1b58b6fbe87bcb8baef6cff270e32e6fdd0295a9"
+    },
+    {
+      "file": "public/assets/showcase/coin-collection-en.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/en-US/en-US-03-collections.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 148666,
+      "sha256": "56efd68af082e6b846ee19253aff9c098e8fba424d62267b8a2ea38896bae4b4"
+    },
+    {
+      "file": "public/assets/showcase/coin-peeper-en.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/en-US/en-US-04-peeper-codex.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 146888,
+      "sha256": "70a9e216154abad042406b69a2f041ebf2308c9fbfcc708a16132721b2ccf975"
+    },
+    {
+      "file": "public/assets/showcase/coin-table-zh.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/zh-CN/zh-CN-01-coin-pusher.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 201040,
+      "sha256": "d3b55119417368886a2fde4b0f4601809058342de5ba4ca05c2320158e624908"
+    },
+    {
+      "file": "public/assets/showcase/coin-skills-zh.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/zh-CN/zh-CN-02-powerups.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 94158,
+      "sha256": "e13938573b978ab2ec7eac0376c918fad995a6826aa3be9c11e876cd7daba6f1"
+    },
+    {
+      "file": "public/assets/showcase/coin-collection-zh.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/zh-CN/zh-CN-03-collections.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 145696,
+      "sha256": "3ff85dcc20a3857cf716884bdddc6e5b8a526d2170a96bb064594c16fd77b373"
+    },
+    {
+      "file": "public/assets/showcase/coin-peeper-zh.webp",
+      "source": "coin-blast/Publishing/GooglePlay/screenshots/zh-CN/zh-CN-04-peeper-codex.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 148846,
+      "sha256": "d0d8a00de2a88402ae4910a0cf4802fab70266df7ba2b968395e57487a81d872"
+    },
+    {
+      "file": "public/assets/showcase/red-battle.webp",
+      "source": "idle-dark-fairytale/output/localization/en-900x1600-battle.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 131154,
+      "sha256": "8b6430d4c5b03146b3db6af1d346967704e3ac9820691819c1d5aa0b4a7e4abb"
+    },
+    {
+      "file": "public/assets/showcase/red-map.webp",
+      "source": "idle-dark-fairytale/output/localization/en-900x1600-map.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 265064,
+      "sha256": "3bdc81c60e597d4e1369dc03b1f8aa28a037c4d7a713c8ab0bc21f12c5d93425"
+    },
+    {
+      "file": "public/assets/showcase/red-gear.webp",
+      "source": "idle-dark-fairytale/output/localization/en-900x1600-gear.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 144100,
+      "sha256": "092ecfd4fd318203e3f51f8b5d735c86b7ba6b11b366eb61439f6ed36068a822"
+    },
+    {
+      "file": "public/assets/showcase/red-skills.webp",
+      "source": "idle-dark-fairytale/output/localization/en-900x1600-skills.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 125158,
+      "sha256": "5440091f7f5b922030ff769a41303f97d2d51bf99c9224cfaeb46825495c922c"
+    },
+    {
+      "file": "public/assets/showcase/b20-cover.webp",
+      "source": "vic-games/public/assets/b20-laboratory.png",
+      "width": 1600,
+      "height": 533,
+      "bytes": 124438,
+      "sha256": "725daa31ef86cb0c006bd303b802d18c79b557816eced0d36d1c75b3015dd1b8"
+    },
+    {
+      "file": "public/assets/showcase/coin-cover.webp",
+      "source": "coin-blast/Publishing/GooglePlay/graphics/pc/en-US-cover-1920x1080.png",
+      "width": 1600,
+      "height": 900,
+      "bytes": 151610,
+      "sha256": "e5ed76332d275a908ad1d25e67ee05dcc255a88be68a92c391a8a84c5f5ae9ee"
+    },
+    {
+      "file": "public/assets/showcase/red-cover.webp",
+      "source": "vic-games/public/assets/red-ever-after.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 158914,
+      "sha256": "2232aea4e9616bbf4304dc25d56fe1e63e8de704b3202d1588fbcaaec9abde97"
+    },
+    {
+      "file": "public/assets/showcase/coin-icon.webp",
+      "source": "coin-blast/Publishing/GooglePlay/graphics/icon-512.png",
+      "width": 160,
+      "height": 160,
+      "bytes": 10592,
+      "sha256": "1f661506907d9c795de68c8258f0ee012a89d5bbbbef26d16b736e7dc4fc748a"
+    },
+    {
+      "file": "public/assets/showcase/b20-icon.webp",
+      "source": "vic-games/public/assets/b20-icon.png",
+      "width": 160,
+      "height": 160,
+      "bytes": 7062,
+      "sha256": "96394ccf4421a1e1426343032e55e79593b445930078e682ee8e8bd8b96d210c"
+    },
+    {
+      "file": "public/assets/showcase/red-icon.webp",
+      "source": "idle-dark-fairytale/Assets/ArtSources/Marketing/GooglePlay/Icon-v2-20261020/GooglePlay-Icon-512.png",
+      "width": 160,
+      "height": 160,
+      "bytes": 7524,
+      "sha256": "26d76d4b1b470130249c30eaccbf87309fcc4dfc383d9e10ee51e9f537200d2e"
+    }
+  ]
+}
