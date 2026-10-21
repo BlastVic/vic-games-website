@@ -1,0 +1,488 @@
+{
+  "origin": "https://vic-games.tigerywy.workers.dev",
+  "sourceCommit": "d45991b",
+  "checkedAt": "2026-10-21T07:51:25.382Z",
+  "pass": true,
+  "findings": [
+    {
+      "file": "404.html",
+      "status": 200,
+      "sha256": "ec2c4e792b3295bde0d7aeb5946f1899471386b036bedcaf0a7c4342576e8b62",
+      "pass": true
+    },
+    {
+      "file": "404/index.html",
+      "status": 200,
+      "sha256": "ec2c4e792b3295bde0d7aeb5946f1899471386b036bedcaf0a7c4342576e8b62",
+      "pass": true
+    },
+    {
+      "file": "app-ads.txt",
+      "status": 200,
+      "sha256": "1babd7caa10fd5d8665e62e0e16b031453c8d9213ac6de50a422081958f51ddf",
+      "pass": true
+    },
+    {
+      "file": "assets/b20-icon.png",
+      "status": 200,
+      "sha256": "4b0da145489f34b69d13ede0e74095163a331af7dbd2fdd23ec6bef53239e073",
+      "pass": true
+    },
+    {
+      "file": "assets/b20-laboratory.png",
+      "status": 200,
+      "sha256": "8bed2e758e992abc72afe0f0b14c3a287bae25ad996d1b2c2d08f5a8cd6e4972",
+      "pass": true
+    },
+    {
+      "file": "assets/coin-background.png",
+      "status": 200,
+      "sha256": "d5d86d3360f719d957c9e11b8947f2fcc3d465018e69f5e48cd1a433233714b7",
+      "pass": true
+    },
+    {
+      "file": "assets/coin-logo.png",
+      "status": 200,
+      "sha256": "b68e4bdd27f92d17c7003ec05c45578a935d8bd556f0e5f81f43dfe622740c80",
+      "pass": true
+    },
+    {
+      "file": "assets/red-ever-after.png",
+      "status": 200,
+      "sha256": "307ebcf1fd03cd832e0c1432e6db7683b018f5df170cf6b0336358e2e0a81c6f",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-cover.webp",
+      "status": 200,
+      "sha256": "725daa31ef86cb0c006bd303b802d18c79b557816eced0d36d1c75b3015dd1b8",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-fry-en.webp",
+      "status": 200,
+      "sha256": "67778bbb94f972d33a346dc022ba19d00256ddf4891d756d55eb32211754e817",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-fry-zh.webp",
+      "status": 200,
+      "sha256": "2bc3f380bfd50498ca7b6d206dd093bb2fbc1566c742054f56cb7b91b0c102e0",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-icon.webp",
+      "status": 200,
+      "sha256": "96394ccf4421a1e1426343032e55e79593b445930078e682ee8e8bd8b96d210c",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-lab-en.webp",
+      "status": 200,
+      "sha256": "ea2ac494c0a96e2ce476cc45723631fdd47fe8c92f65f0e1afe0975191ae1c54",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-lab-zh.webp",
+      "status": 200,
+      "sha256": "8fe9a52bd9782f4c120b94e396a5a00d61dfaa051d1da24590e09e3c6dc3af96",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-shrink-en.webp",
+      "status": 200,
+      "sha256": "b4a1a8b8a441a97ac71718fa2a3ee60cade04c81dbf5bcdbd0cbd1c18a3f51d6",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-shrink-zh.webp",
+      "status": 200,
+      "sha256": "9e63114eb0f12452d44afa6c442c46d6494bd06086a0687949cfa1140fe4a8d9",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-subway-en.webp",
+      "status": 200,
+      "sha256": "beb30b3166425515075d3c720fa3efda370d7549103e1cbee72c512ce2f88143",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/b20-subway-zh.webp",
+      "status": 200,
+      "sha256": "2d836155b3187796ea446dd745fd60839d8f7f5f40af2df8976a0759798a06fe",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-collection-en.webp",
+      "status": 200,
+      "sha256": "56efd68af082e6b846ee19253aff9c098e8fba424d62267b8a2ea38896bae4b4",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-collection-zh.webp",
+      "status": 200,
+      "sha256": "3ff85dcc20a3857cf716884bdddc6e5b8a526d2170a96bb064594c16fd77b373",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-cover.webp",
+      "status": 200,
+      "sha256": "e5ed76332d275a908ad1d25e67ee05dcc255a88be68a92c391a8a84c5f5ae9ee",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-icon.webp",
+      "status": 200,
+      "sha256": "1f661506907d9c795de68c8258f0ee012a89d5bbbbef26d16b736e7dc4fc748a",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-peeper-en.webp",
+      "status": 200,
+      "sha256": "70a9e216154abad042406b69a2f041ebf2308c9fbfcc708a16132721b2ccf975",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-peeper-zh.webp",
+      "status": 200,
+      "sha256": "d0d8a00de2a88402ae4910a0cf4802fab70266df7ba2b968395e57487a81d872",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-skills-en.webp",
+      "status": 200,
+      "sha256": "3537cd5953293a3b36c0a91a1b58b6fbe87bcb8baef6cff270e32e6fdd0295a9",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-skills-zh.webp",
+      "status": 200,
+      "sha256": "e13938573b978ab2ec7eac0376c918fad995a6826aa3be9c11e876cd7daba6f1",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-table-en.webp",
+      "status": 200,
+      "sha256": "d4c1037a605f969aaf20e0cd3422e0b9fefd3ee4cfa6cb740974154c2104bc43",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/coin-table-zh.webp",
+      "status": 200,
+      "sha256": "d3b55119417368886a2fde4b0f4601809058342de5ba4ca05c2320158e624908",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/red-battle.webp",
+      "status": 200,
+      "sha256": "8b6430d4c5b03146b3db6af1d346967704e3ac9820691819c1d5aa0b4a7e4abb",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/red-cover.webp",
+      "status": 200,
+      "sha256": "2232aea4e9616bbf4304dc25d56fe1e63e8de704b3202d1588fbcaaec9abde97",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/red-gear.webp",
+      "status": 200,
+      "sha256": "092ecfd4fd318203e3f51f8b5d735c86b7ba6b11b366eb61439f6ed36068a822",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/red-icon.webp",
+      "status": 200,
+      "sha256": "26d76d4b1b470130249c30eaccbf87309fcc4dfc383d9e10ee51e9f537200d2e",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/red-map.webp",
+      "status": 200,
+      "sha256": "3bdc81c60e597d4e1369dc03b1f8aa28a037c4d7a713c8ab0bc21f12c5d93425",
+      "pass": true
+    },
+    {
+      "file": "assets/showcase/red-skills.webp",
+      "status": 200,
+      "sha256": "5440091f7f5b922030ff769a41303f97d2d51bf99c9224cfaeb46825495c922c",
+      "pass": true
+    },
+    {
+      "file": "favicon.svg",
+      "status": 200,
+      "sha256": "8d7ee5439fe88f19292bdbd5e4a37cd83b4f459081256e541ef4e905ff985346",
+      "pass": true
+    },
+    {
+      "file": "games/b20/index.html",
+      "status": 200,
+      "sha256": "adfb82bb026d7cc4801f3b4e8fdc59a101ba1d6ae49d77ef68c3786b92117f9d",
+      "pass": true
+    },
+    {
+      "file": "games/b20/privacy/index.html",
+      "status": 200,
+      "sha256": "7a4b10db2ffe0b09f34102601e5086fd63f848d0b5003f6e6227d2f964180dd7",
+      "pass": true
+    },
+    {
+      "file": "games/b20/support/index.html",
+      "status": 200,
+      "sha256": "691d981e3f1522bce32f627ea230df4608ad5494d49aea12c87c01f533b4d899",
+      "pass": true
+    },
+    {
+      "file": "games/b20/terms/index.html",
+      "status": 200,
+      "sha256": "a2dd5924939712a5d5a05fe690e8c7ccd7af9ff9993540e2d3dd984195379de1",
+      "pass": true
+    },
+    {
+      "file": "games/coin-pusher-monster-siege/delete-data/index.html",
+      "status": 200,
+      "sha256": "4660bb194cc3d75b8016bb8ea8db12625404e07c6cf0edfed0aa795b4e230118",
+      "pass": true
+    },
+    {
+      "file": "games/coin-pusher-monster-siege/index.html",
+      "status": 200,
+      "sha256": "9a8b271f43cb9f32f6f548766c3639977bbe81826530cbfcf7420753a9b1a601",
+      "pass": true
+    },
+    {
+      "file": "games/coin-pusher-monster-siege/privacy/index.html",
+      "status": 200,
+      "sha256": "36a1570a34d907472338d5b14f9fd32bf608a6a30207ca835b6ae526c177e0e2",
+      "pass": true
+    },
+    {
+      "file": "games/coin-pusher-monster-siege/support/index.html",
+      "status": 200,
+      "sha256": "e96b435120fb5e7028fd8ca81f4c863ffb3d38e380fd7b1ef62d3c4487fa8a35",
+      "pass": true
+    },
+    {
+      "file": "games/coin-pusher-monster-siege/terms/index.html",
+      "status": 200,
+      "sha256": "fdd1c45af64916f1a98a933fe95189ffe9c7432848ad006fd79d9d241f3b1f0b",
+      "pass": true
+    },
+    {
+      "file": "games/index.html",
+      "status": 200,
+      "sha256": "da6c5826fbdf151b515c37eb7f34e0e9e4f836f833bbe99af82a56cd8863ecc6",
+      "pass": true
+    },
+    {
+      "file": "games/red-ever-after/delete-data/index.html",
+      "status": 200,
+      "sha256": "3ca948c00c4477c4e1df0a2c5172011bf02fe0cf787268444429ee4e0eb4d3fb",
+      "pass": true
+    },
+    {
+      "file": "games/red-ever-after/index.html",
+      "status": 200,
+      "sha256": "316055fe21cd63a15ef3ca9252f99bf97fad172b7694f351d96e6b627a0e734a",
+      "pass": true
+    },
+    {
+      "file": "games/red-ever-after/privacy/index.html",
+      "status": 200,
+      "sha256": "3713087359eb1a2afbb6e4ce578d7bd726a338b2fd5ebb8f40f2aa18876b05c5",
+      "pass": true
+    },
+    {
+      "file": "games/red-ever-after/support/index.html",
+      "status": 200,
+      "sha256": "b08b2e238e5d466d1bc0595d677e9ea544dd160a50ee1ce65ad198e429dd0fbb",
+      "pass": true
+    },
+    {
+      "file": "games/red-ever-after/terms/index.html",
+      "status": 200,
+      "sha256": "b113a4fed31e7f915b289ff935e89c2577eb44c41cb9a477b3b60c6493e0beb9",
+      "pass": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "77bb2fbe0ade0d72522e4027ff2d6c7c87e6759635752c88757f93255ac4186e",
+      "pass": true
+    },
+    {
+      "file": "privacy/index.html",
+      "status": 200,
+      "sha256": "458c0d3ea81e28df17d0986b171b54f4eed3baf8895f59a4017a83a18fa92926",
+      "pass": true
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "sha256": "988f8219fb70531e17b9cc4585d0af974590cbdc0f9e345192a7f1b3707d7cf1",
+      "pass": true
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "sha256": "3242ce3a06f3da0a37c49d0688f5030407d38e0994d98af2df7bdcaa0161d9ae",
+      "pass": true
+    },
+    {
+      "file": "style.css",
+      "status": 200,
+      "sha256": "c8dfb0d2b0ab39776bb093adc032b842853f200cc3cdd690e2d24c17c5bc2589",
+      "pass": true
+    },
+    {
+      "file": "support.js",
+      "status": 200,
+      "sha256": "c48770d2909abbba2117c739c2201bf99221098032f59c3a4acbfb8af3d68fc9",
+      "pass": true
+    },
+    {
+      "file": "support/deletion/index.html",
+      "status": 200,
+      "sha256": "faefebdb350bd2609eff2bd7df805e1f4a43e1af28d93dc5eb12f34430b9d228",
+      "pass": true
+    },
+    {
+      "file": "support/index.html",
+      "status": 200,
+      "sha256": "fd072ade37924ad168416f375fb96389a970dfdedcbbc1541646251f8a72465d",
+      "pass": true
+    },
+    {
+      "file": "terms/index.html",
+      "status": 200,
+      "sha256": "f32d545b72c4982cfc39ee85835d2af10984b993fbf83bb01747bc19b710a7a8",
+      "pass": true
+    },
+    {
+      "file": "zh/404/index.html",
+      "status": 200,
+      "sha256": "4d67b722191877260dfae70251c78effb1dd5fc5fe0bb69ff19db6bebd6e629a",
+      "pass": true
+    },
+    {
+      "file": "zh/games/b20/index.html",
+      "status": 200,
+      "sha256": "dded607ae6a7ca352deb9f7f668fb674399eb40f24acacb267ca6910011a3abc",
+      "pass": true
+    },
+    {
+      "file": "zh/games/b20/privacy/index.html",
+      "status": 200,
+      "sha256": "6fce019f1fe4db5a98cb7f4609f7d8b802f6e6de166ea9717b5576e74480c2c7",
+      "pass": true
+    },
+    {
+      "file": "zh/games/b20/support/index.html",
+      "status": 200,
+      "sha256": "a7bae57bb5c6ee11ea16285a73d91bba51bd5305cb331213d816174893c95302",
+      "pass": true
+    },
+    {
+      "file": "zh/games/b20/terms/index.html",
+      "status": 200,
+      "sha256": "b6dd5f1b229ee0207ab66b4947d02657e172d44ee079a9362d3801c570bc6629",
+      "pass": true
+    },
+    {
+      "file": "zh/games/coin-pusher-monster-siege/delete-data/index.html",
+      "status": 200,
+      "sha256": "89a1dd795b0c8932c83ccc9158a03742572065c25e9c59adb88536d854ef961f",
+      "pass": true
+    },
+    {
+      "file": "zh/games/coin-pusher-monster-siege/index.html",
+      "status": 200,
+      "sha256": "78407362520eb955f375fe913b3223126dcfdebdfd87f6391d30aacb99691ef9",
+      "pass": true
+    },
+    {
+      "file": "zh/games/coin-pusher-monster-siege/privacy/index.html",
+      "status": 200,
+      "sha256": "1b684f32b23b0df8802d2ab9f2658b8581de61af39a455ded1d0e245a39a1aa2",
+      "pass": true
+    },
+    {
+      "file": "zh/games/coin-pusher-monster-siege/support/index.html",
+      "status": 200,
+      "sha256": "3c2e6f36b50d5e513b5e159ff9c8e86c6c2af8192fac538c8f96f5779e23b96b",
+      "pass": true
+    },
+    {
+      "file": "zh/games/coin-pusher-monster-siege/terms/index.html",
+      "status": 200,
+      "sha256": "9ccc6cb71f86d2468e15e8afd7a757955d7e3ad951d0f8ab62a4573b48e046d4",
+      "pass": true
+    },
+    {
+      "file": "zh/games/index.html",
+      "status": 200,
+      "sha256": "2d1c85515e49784b4d5e38351831ac182a5da6c139ae6dc5100aec2986629b60",
+      "pass": true
+    },
+    {
+      "file": "zh/games/red-ever-after/delete-data/index.html",
+      "status": 200,
+      "sha256": "8529d5837809d305f3cf2a53b35b09359786f4833de670e29dd05078d56996ef",
+      "pass": true
+    },
+    {
+      "file": "zh/games/red-ever-after/index.html",
+      "status": 200,
+      "sha256": "d5c9675f92b88d42b0eaf2a2301931323222322df744abeb5b08a0226c8bf54e",
+      "pass": true
+    },
+    {
+      "file": "zh/games/red-ever-after/privacy/index.html",
+      "status": 200,
+      "sha256": "bd6bcf6711dd073f403de820bdf345da907cb60779752ac3fbeeb4ba75a16ecc",
+      "pass": true
+    },
+    {
+      "file": "zh/games/red-ever-after/support/index.html",
+      "status": 200,
+      "sha256": "a6ea71cd9d77a22909f45f7f5ce83a26e05d6ded975003b7085d8712abb53991",
+      "pass": true
+    },
+    {
+      "file": "zh/games/red-ever-after/terms/index.html",
+      "status": 200,
+      "sha256": "c358cb76bd675a6e40487eb6c568569eaf8a86c007fc20eb473f9fd899bf2b4b",
+      "pass": true
+    },
+    {
+      "file": "zh/index.html",
+      "status": 200,
+      "sha256": "d60ad88f502004ba00c6acb30a74d7430df8f1a67cbfaa87d992a54f9c87991c",
+      "pass": true
+    },
+    {
+      "file": "zh/privacy/index.html",
+      "status": 200,
+      "sha256": "4dab3ed3966a715cda7b699e8a4a9ae6c195777bef8fd87b4c82de98567f78ed",
+      "pass": true
+    },
+    {
+      "file": "zh/support/deletion/index.html",
+      "status": 200,
+      "sha256": "84189066608a7024bb9a31090d2984a4078e3235bad2761e04ae749b24fdda49",
+      "pass": true
+    },
+    {
+      "file": "zh/support/index.html",
+      "status": 200,
+      "sha256": "75eb4291d8f068e4a0a49174d4585e253adddd70ee356085ddb0c5aee63d0e1f",
+      "pass": true
+    },
+    {
+      "file": "zh/terms/index.html",
+      "status": 200,
+      "sha256": "deb42bad77ed179ddeab3a65e6e8a7d30b2edda69d5cdd58a74daba6e9c8b4e2",
+      "pass": true
+    }
+  ]
+}

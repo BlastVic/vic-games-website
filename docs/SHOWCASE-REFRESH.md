@@ -27,4 +27,4 @@ B20's game-specific English legal documents and effective dates were preserved. 
 - Interaction checks: language switch keeps the game route; section anchors reach their sections; native FAQs expand; full-size screenshot opens in a new tab; store links point to the verified official package IDs. Red Ever After's own content has no store link. Support email remains a draft link, with no message sent.
 - Existing user changes in `docs/validation/live-check.json` were left out of this source change.
 
-Local source change only. No deployment was performed.
+Deployed after owner approval on October 21, 2026: Cloudflare version `ce728127`, Ready, 100% traffic. Source `d45991b` is on `main`. All 54 live checks passed and all 80 public response bodies matched the release manifest. See `RELEASE.md` for the upload checksum and verification records.

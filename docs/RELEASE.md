@@ -1,3 +1,13 @@
+# 2026-10-21 首页与游戏展示改版上线
+
+- 改版源码 `d45991b` 已合并并推送 `main`，部署到现有 Cloudflare `vic-games`；版本 `ce728127`，Ready，100% 流量。
+- 首页与三款游戏中英文介绍新增独立主题、玩法、四图画廊、FAQ 和相关游戏入口。B20、Coin 提供已核实的 Google Play 链接；Red Ever After 标为封闭测试准备中。
+- 仅上传 `dist/` 对应的 81 文件 ZIP，SHA256 `55582882b61a147a73c43d3c62f5168b3a4963c12f4e58abd95434774d95bf0f`。
+- 构建及检查通过：42 页面、1,126 内部链接/素材/锚点。线上检查 54/54 通过；80/80 可公开获取的文件 SHA256 与本地发布包一致（`_headers` 由托管平台消费，通过响应头另行验证）。
+- 浏览器验证中文首页、英文切换、Coin 游戏页及四张截图。保持纯静态资源、0 bindings、Workers Logs / Traces Disabled。
+- 验证记录：`docs/validation/live-check-showcase-20261021.json`、`docs/validation/showcase-live-integrity-20261021.json`。原有未提交的 `live-check.json` 未覆盖。
+- Coin 的未核对政策仍保留 `noindex` 和待核对标记；B20 专属政策原文及生效日期未改变。
+
 # 2026-10-21 Red Ever After 上线
 
 - 已部署中英文游戏介绍、隐私政策、条款、客服与邮件数据删除页面。版本 `bbf8bf3e`，Ready，100% 流量。
