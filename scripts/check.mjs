@@ -11,7 +11,7 @@ for(const page of pages){
  if(!body.includes('name="description"'))failures.push(page.file+': missing description');
  const ids=[...body.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
  if(new Set(ids).size!==ids.length)failures.push(page.file+': duplicate IDs');
- for(const match of body.matchAll(/\b(?:href|src)="([^"]+)"/g)){
+ for(const match of body.matchAll(/\b(?:href|src|poster)="([^"]+)"/g)){
   const ref=match[1];if(/^(https?:|mailto:)/.test(ref))continue;
   const target=new URL(ref,'http://local'+page.url),pathname=decodeURIComponent(target.pathname);
   let dest=join(root,pathname);try{if((await stat(dest)).isDirectory())dest=join(dest,'index.html');await stat(dest);if(target.hash){const content=await html(dest);if(!content.includes(`id="${decodeURIComponent(target.hash.slice(1))}"`))throw Error('missing fragment')}}catch(e){failures.push(page.file+': '+ref+' ('+e.message+')')};checked++;

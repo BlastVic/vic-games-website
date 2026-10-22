@@ -4,7 +4,7 @@ root = pathlib.Path(__file__).resolve().parents[1]
 out = root / 'release'
 out.mkdir(exist_ok=True)
 files = sorted(p for p in (root / 'dist').rglob('*') if p.is_file())
-allowed = {'.html', '.css', '.js', '.png', '.svg', '.webp', '.txt', '.xml'}
+allowed = {'.html', '.css', '.js', '.png', '.svg', '.webp', '.txt', '.xml', '.mp4'}
 for p in files:
     if p.suffix not in allowed and p.name not in {'_headers', '_redirects'}:
         raise SystemExit(f'Unexpected public file: {p.name}')

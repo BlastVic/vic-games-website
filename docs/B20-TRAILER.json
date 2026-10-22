@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-22",
+  "sourceThread": "推广与获客",
+  "sourceDirectory": "minigames/Release/SocialVideo/minimix-youtube",
+  "approvedVideo": "minimix-youtube-refined-35s-v2.mp4",
+  "posterSource": "minimix-youtube-封面.jpg",
+  "youtube": "https://www.youtube.com/watch?v=3LqQ_7UM3d0",
+  "durationSeconds": 35.5,
+  "width": 1080,
+  "height": 1728,
+  "fps": 60,
+  "encoding": "H.264 / AAC; original approved file, byte-for-byte copy; faststart verified",
+  "posterProcessing": "Resized to 720×1152 and encoded as WebP, no cropping",
+  "hosting": "Same-origin native video, preload none, no autoplay or YouTube iframe. YouTube is an external link.",
+  "music": "Electrodoodle — Kevin MacLeod (incompetech.com); CC BY 4.0; excerpted, volume-adjusted, faded and mixed with gameplay audio. Visible credits on both pages.",
+  "assets": [
+    {
+      "file": "public/assets/video/b20-trailer-poster.webp",
+      "bytes": 174182,
+      "sha256": "eab085cec3009e6ac694579af9860b6252b56eda80d870fef45fd23081013427"
+    },
+    {
+      "file": "public/assets/video/b20-trailer.mp4",
+      "bytes": 21027704,
+      "sha256": "01053483ba44f103e18144bfd14729be1b64634baf263f5108ab9440c3523e86"
+    }
+  ]
+}

@@ -4,6 +4,15 @@ const shot = (file, title, caption, localized = true) => ({file, title, caption,
 export const showcases = {
  b20: {
   theme:'robot', cover:'showcase/b20-cover.webp', icon:'showcase/b20-icon.webp',
+  trailer:{
+   file:'video/b20-trailer.mp4', poster:'video/b20-trailer-poster.webp',
+   youtube:'https://www.youtube.com/watch?v=3LqQ_7UM3d0',
+   title:bi('Small games.\nBig surprises.','小小的游戏，\n大大的意外。'),
+   description:bi('Meet B20 in motion. A quick trip through 12 different mini-games, from mischievous laboratory experiments to the little surprises of everyday life.','让 B20 动起来。在 12 款不同小游戏之间快速穿梭，从实验室里的奇妙实验，到日常生活中的小小意外。'),
+   label:bi('Official gameplay trailer','官方实机宣传片'),
+   format:bi('35.5 seconds · English video','35.5 秒 · 英文视频'),
+   credit:{title:'Electrodoodle',author:'Kevin MacLeod (incompetech.com)',source:'https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200079',license:'https://creativecommons.org/licenses/by/4.0/'}
+  },
   hook:bi('For your “one more round.”','献给每一次「再来一局」。'),
   summary:bi('40 quick challenges. One very busy robot.','40 个短回合挑战，一个忙不停的小机器人。'),
   introTitle:bi('Welcome to B20’s stress test.','欢迎加入 B20 的压力测试。'),
