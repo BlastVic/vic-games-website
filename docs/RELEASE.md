@@ -131,3 +131,15 @@ Chrome 扩展未开放 file-URL 权限，直接工具上传失败；已通过原
 - Cloudflare 部署 `41e66442` 已承接 100% 流量，仍为静态资源、无绑定、Logs/Traces Disabled。
 - 公开地址 `https://vic-games.tigerywy.workers.dev/app-ads.txt` 经 HTTP 检查返回 200、`text/plain`，响应字节与源码完全一致。Chrome 当前打开该路径报告 ERR_BLOCKED_BY_CLIENT，未变更浏览器防护设置；HTTP 访问验证成功。
 - 文件发布不等同于 AdMob 验证通过；仍需完成 Google Play 商店关联、确保商店开发者网站使用此域名，并等待 Google 抓取验证。本轮未修改商店字段或审核状态。
+
+## B20 宣传视频发布 — 2026-10-22
+
+- B20 中英文游戏页新增原生竖屏宣传片、首屏视频入口、YouTube 外链与音乐署名；35.5 秒英文片源来自 MiniMix「推广与获客」会话最终批准的 v2，详见 `B20-TRAILER.json`。
+- 视频与 WebP 封面都在 `public/assets/video/`，构建不依赖 Unity 工程。原片保留 H.264/AAC、1080×1728、60 fps，验证 moov 位于 mdat 之前；无自动播放，`preload="none"`，无第三方嵌入。
+- 源码提交 `5119767` 已合入并推送 main。`npm run release` 通过：42 页面、1,132 内部链接/素材/锚点、83 发布文件。
+- 仅上传 dist 内容生成的 ZIP，SHA256：`dbc5d7a4c74e2bde251ef82eee816bd2205dcb886b0b4f49abeda455a9327336`。
+- Cloudflare 版本 `d7f16eb6`，Ready / 100%，静态资源、Bindings 0、Logs/Traces Disabled。
+- 本地浏览器检查中英文及手机布局，并实际播放。线上浏览器验证时长 35.5 秒、readyState 4、播放、暂停与键盘进度跳转；全站 54/54 HTTP 检查通过，记录于 `validation/live-check-b20-video-20261022.json`。
+- 额外逐字节资源校验未完成：本机独立 HTTP 请求遇到间歇 TLS/连接重置；未关闭证书校验。线上视频播放验证已通过。
+- 中文入口：https://vic-games.tigerywy.workers.dev/zh/games/b20/#trailer
+- 英文入口：https://vic-games.tigerywy.workers.dev/games/b20/#trailer
