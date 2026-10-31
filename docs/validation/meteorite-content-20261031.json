@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "a6a810c955dbd9464db50c553c35f3ddeb2e4dd1c52a4e7cf2d85e8f8887f609",
+    "pass": true
+  },
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/privacy/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "bcef369eded56bd2bf74f463da0a2a10e5a6020bc83dd4066b84c005a8f0f3a4",
+    "pass": true
+  },
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/support/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "0bfeda54e7a9bc3394774d6bbb2aef48badaea23f655355aa4a070a695d3fb3d",
+    "pass": true
+  },
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/delete-data/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "8f1277fbc94c8b42ba5a492f7a7c2adbe79345dd36368aeb96ac5e4b4cf35bb7",
+    "pass": true
+  },
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "a64e9c8eded722a0e26f9234cf357f82f61a2c2cb7fabc522f3f3c2b599328e1",
+    "pass": true
+  },
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/privacy/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "5e1a438e123fbb71c3c3f1c6e211d8ea3d8c079460008476bd486b1a8a575e9e",
+    "pass": true
+  },
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/support/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "21750de67721ae60d1aa047f5f1d4d7fa91170b2b7903ee2ee74b680d154d061",
+    "pass": true
+  },
+  {
+    "url": "https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/delete-data/",
+    "status": 200,
+    "contentType": "text/html",
+    "sameBytes": true,
+    "noindex": true,
+    "sha256": "247fcc58e34980e7e1771948f164f190c44b0c6b1578a9ed5d839c3a8b3987e7",
+    "pass": true
+  }
+]

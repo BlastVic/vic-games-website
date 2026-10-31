@@ -143,3 +143,16 @@ Chrome 扩展未开放 file-URL 权限，直接工具上传失败；已通过原
 - 额外逐字节资源校验未完成：本机独立 HTTP 请求遇到间歇 TLS/连接重置；未关闭证书校验。线上视频播放验证已通过。
 - 中文入口：https://vic-games.tigerywy.workers.dev/zh/games/b20/#trailer
 - 英文入口：https://vic-games.tigerywy.workers.dev/games/b20/#trailer
+
+## Meteorite Crisis 专属政策发布 — 2026-10-31
+
+- 新增石不可挡（Meteorite Crisis，`com.vicyang.meteorite`）中英文游戏资料、隐私、支持与删除请求页面，共 8 页。当前为开发与测试版本说明，明确标记未核验的受众、保留设置与发布状态，全部 noindex，不加入游戏营销卡片。
+- 源码提交 `95940a2` 已合入并推送 main。构建及检查通过：50 页面、1,382 内部链接/素材/锚点；发布包包含 91 个 dist 文件，打包内容与构建输出逐字节一致。
+- 上传 ZIP SHA256：`75136daf36de278b0112300952f91820834e71e0b66a00d524bba58d2659f7da`。
+- Cloudflare 版本 `9ae74c27`，Ready / 100%，静态资源、Bindings 0、Logs/Traces Disabled。登录复用既有 Google 身份，无新增权限。
+- 全站 62/62 HTTP 检查通过，见 `validation/live-check-meteorite-20261031.json`；新增 8 个页面均 HTTP 200、noindex，线上正文与 dist 字节完全一致，见 `validation/meteorite-content-20261031.json`。
+- 本地已检查桌面及 390px 手机布局、锚点与邮件草稿链接；线上浏览器检查中文政策及英文切换。未发送任何客服或数据请求邮件。
+- 英文政策：https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/privacy/
+- 中文政策：https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/privacy/
+- 删除请求：https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/delete-data/
+- 已将公开网址返回「数据和广告」会话。本次未修改 AdMob 消息或商店声明；后台配置、真实安装包行为与发布前受众核验由游戏项目继续完成。
