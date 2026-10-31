@@ -3,6 +3,7 @@ import {mkdir,readFile,writeFile,cp,rm} from 'node:fs/promises';
 import {site,games} from '../src/site.mjs';
 import {policyContent} from '../src/policies.mjs';
 import {redDocument} from '../src/red-ever-after.mjs';
+import {meteoriteDocument} from '../src/meteorite-crisis.mjs';
 import {coinDeletion} from '../src/coin-deletion.mjs';
 if (site.origin && (!/^https:\/\/[^/]+$/.test(site.origin))) throw Error('SITE_ORIGIN must be an HTTPS origin without a trailing slash');
 const out=new URL('../dist/',import.meta.url);
@@ -22,8 +23,9 @@ async function page(route,title,description,body,{noindex=false,script=false}={}
  const alternate=(lang==='en'?'/zh/':'/')+(route?route+'/':'');
  const canonical=site.origin?`<link rel="canonical" href="${esc(site.origin+url(route))}"><link rel="alternate" hreflang="en" href="${esc(site.origin+'/'+(route?route+'/':''))}"><link rel="alternate" hreflang="zh-Hans" href="${esc(site.origin+'/zh/'+(route?route+'/':''))}">`:'';
  const socialGame=games.find(g=>route==='games/'+g.slug);
- const socialImage='/assets/'+(socialGame?.showcase.cover||'showcase/b20-cover.webp');
- const social=`<meta property="og:type" content="website"><meta property="og:title" content="${esc(title+' · '+site.name)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(site.origin+url(route))}"><meta property="og:image" content="${esc(site.origin+socialImage)}"><meta name="twitter:card" content="summary_large_image">`;
+ const policyOnly=games.some(g=>g.documents&&(route==='games/'+g.slug||route.startsWith('games/'+g.slug+'/')));
+ const socialImage=policyOnly?null:'/assets/'+(socialGame?.showcase?.cover||'showcase/b20-cover.webp');
+ const social=`<meta property="og:type" content="website"><meta property="og:title" content="${esc(title+' · '+site.name)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(site.origin+url(route))}">${socialImage?`<meta property="og:image" content="${esc(site.origin+socialImage)}"><meta name="twitter:card" content="summary_large_image">`:'<meta name="twitter:card" content="summary">'}`;
  const html=`<!doctype html><html lang="${lang==='zh'?'zh-Hans':'en'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} · ${site.name}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#0c1014">${noindex?'<meta name="robots" content="noindex">':''}${canonical}${social}<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="stylesheet" href="/style.css">${script?'<script src="/support.js" defer></script>':''}</head><body><a class="skip" href="#main">${t('Skip to content','跳至正文')}</a><header class="header wrap"><a class="brand" href="${url()}" aria-label="${site.name} ${names.home}"><span class="mark" aria-hidden="true">VY</span>${site.name}<span class="brand-suffix"> / </span></a><nav class="nav" aria-label="${t('Main navigation','主导航')}"><a href="${url('games')}" ${route==='games'||route.startsWith('games/')?'aria-current="page"':''}>${names.games}</a><a href="${url('support')}" ${route==='support'?'aria-current="page"':''}>${names.support}</a><a class="language" href="${alternate}" lang="${lang==='en'?'zh-Hans':'en'}" aria-label="${t('Switch to Chinese','Switch to English')}">${t('中文','EN')}</a></nav></header><main id="main" class="wrap">${body}</main><footer><div class="wrap"><div class="footer-top"><a class="brand" href="${url()}">${site.name}<span class="mark" aria-hidden="true">VY</span></a><nav aria-label="${t('Footer navigation','页脚导航')}">${link('games',names.games)}${link('privacy',names.privacy)}${link('terms',names.terms)}${link('support',names.support)}${link('support/deletion',names.deletion)}</nav></div><div class="footer-bottom"><p>© 2026 ${site.name}. ${t('Independently made.','独立创作。')}</p><p>${t('Small games. A world of play.','小小的游戏，大大的乐趣。')}</p></div></div></footer></body></html>`;
  const file=(lang==='zh'?'zh/':'')+(route?route+'/':'')+'index.html';
  await mkdir(new URL(file.replace(/[^/]*$/,''),out),{recursive:true});await writeFile(new URL(file,out),html);rendered.push({file,url:url(route),noindex});
@@ -35,6 +37,15 @@ await page('',t('Independent games, unexpected worlds','独立游戏，意想不
 await page('games',names.games,t('Explore three games by independent developer Vic Yang: gameplay, screenshots and official download links.','探索独立开发者 Vic Yang 的三款游戏：玩法介绍、游戏画面与官方下载链接。'),showcase.collection());
 for(const g of games){
  const base='games/'+g.slug;
+ if(g.policy==='meteorite-crisis'){
+  await page(base,g.name[lang],g.description[lang],doc(meteoriteDocument('home',{lang,site,g,url})),{noindex:g.documentNoindex});
+  for(const type of g.documents){
+   const title=type==='delete-data'?t('Data deletion requests','数据删除请求'):names[type];
+   await page(base+'/'+type,`${g.name[lang]} — ${title}`,`${g.name[lang]}: ${title} · ${site.name}`,doc(meteoriteDocument(type,{lang,site,g,url})),{noindex:g.documentNoindex});
+  }
+  continue;
+ }
+
  if(g.policy==='red-ever-after') await page(base+'/delete-data',t('Request data deletion','请求删除数据'),t('Request deletion of Red Ever After: Idle RPG data by email. No login required.','通过邮件请求删除 Red Ever After: Idle RPG 数据，无需登录。'),doc(redDocument('delete-data',{lang,site,g,url})));
  if(g.slug==='coin-pusher-monster-siege') await page(base+'/delete-data',t('Request data deletion','请求删除数据'),t('Request deletion of Coin Pusher: Monster Siege data from Vic Yang. No login required.','向 Vic Yang 请求删除推币机：怪物围城相关数据，无需登录。'),doc(coinDeletion({lang,site,g,url})));
  await page(base,g.name[lang],g.description[lang],showcase.detail(g));

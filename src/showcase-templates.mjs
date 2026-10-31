@@ -1,5 +1,7 @@
 // Shared static templates: every link and screenshot works without JavaScript.
 export function showcaseTemplates({lang, games, site, url, link, esc, help}) {
+ // Policy-only development entries remain available in support without a marketing card.
+ games=games.filter(g=>g.showcase);
  const t=(en,zh)=>lang==='en'?en:zh;
  const playIcon='<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M4 3.3v17.4c0 .7.8 1.1 1.4.7L20 12.7a.8.8 0 0 0 0-1.4L5.4 2.6c-.6-.4-1.4 0-1.4.7Z"/></svg>';
  const store=(g,cls='button store-button')=>g.storeUrl?`<a class="${cls}" href="${esc(g.storeUrl)}" aria-label="${esc(t('Get '+g.name.en+' on Google Play','前往 Google Play 获取'+g.name.zh))}">${playIcon}<span>${t('Get it on Google Play','前往 Google Play')} <span aria-hidden="true">↗</span></span></a>`:'';
