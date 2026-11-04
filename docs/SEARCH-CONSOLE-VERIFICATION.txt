@@ -1,0 +1,12 @@
+Website ownership verification — 2026-11-04
+
+URL-prefix property: https://vic-games.tigerywy.workers.dev/
+Owner account: tigerywy@gmail.com
+Method: HTML meta tag in scripts/build.mjs shared document head.
+Keep this tag in future builds to retain verified ownership.
+
+Deployed 91 public files to the existing vic-games Cloudflare Worker.
+Search Console confirmed ownership verified via HTML tag.
+Play Console Account details confirmed website verified.
+Validation: build/check passed (50 pages, 1382 references); 62/62 live checks passed.
+Local screenshots are kept outside Git in idle-dark-fairytale/output/website-verification/.
