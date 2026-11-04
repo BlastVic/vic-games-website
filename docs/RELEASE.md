@@ -156,3 +156,16 @@ Chrome 扩展未开放 file-URL 权限，直接工具上传失败；已通过原
 - 中文政策：https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/privacy/
 - 删除请求：https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/delete-data/
 - 已将公开网址返回「数据和广告」会话。本次未修改 AdMob 消息或商店声明；后台配置、真实安装包行为与发布前受众核验由游戏项目继续完成。
+
+## Meteorite Crisis 服务条款发布 — 2026-11-04
+
+- 新增石不可挡中英文专属服务条款，参考 Coin / Red Ever After 的条款结构，核对本地存档、Google Play 内购、AdMob 激励广告及独立 Firebase 选择。包含购买和退款入口、合理使用、隐私、支持、消费者权利及变更说明。
+- 游戏资料页新增条款卡片，隐私/支持/删除页面的游戏导航及通用条款列表均可到达新页面。条款生效及更新日期为 2026-11-04，既有隐私日期 2026-10-31 保留；保持开发/测试范围与 noindex。源码依据见 `METEORITE-TERMS-20261104.txt`。
+- 源码提交 `3e6d3e7` 已合入并推送 main，同时保留并同步此前的网站所有权验证提交及 HTML meta 标记。
+- 构建/检查通过：52 页面、1,464 内部链接/素材/锚点；打包仅含 93 个 dist 文件。ZIP SHA256：`1b9799fd4b665d0e2895183fb4e27ddc937832474a365e47549302390301633e`。
+- Cloudflare 版本 `35503298`，Ready / 100%，静态资源、Bindings 0、Logs/Traces Disabled。沿用既有官网与登录，没有迁移托管服务。
+- 全站 64/64 HTTP 检查通过，见 `validation/live-check-meteorite-terms-20261104.json`；Meteorite 全部 10 个中英文页面均 HTTP 200、内容与 dist 字节一致、noindex 与条款链接有效，见 `validation/meteorite-terms-content-20261104.json`。
+- 浏览器验证英文桌面、中文 390px 手机布局、语言切换、目录锚点和游戏资料入口；线上复核两种语言。客服链接仍为 mailto，没有发送邮件或提交玩家请求。
+- 英文条款：https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/terms/
+- 中文条款：https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/terms/
+- 结果返回「Google Play 发布相关」会话。此次仅发布网站文档；商店年龄分级、交易者声明及安装版本核验不由此页面确认。

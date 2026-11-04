@@ -1,0 +1,96 @@
+{
+  "origin": "https://vic-games.tigerywy.workers.dev",
+  "time": "2026-11-04T12:28:59.868Z",
+  "findings": [
+    {
+      "path": "/games/meteorite-crisis/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "42b119caaf23335a0885f900b06699728e0a67dffbf9271cb96dbe9b09b9a3c0",
+      "pass": true
+    },
+    {
+      "path": "/games/meteorite-crisis/privacy/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "28e481c1b2f726571803629aad2eb13590dcc330550dea0b47156ff7fb5909c6",
+      "pass": true
+    },
+    {
+      "path": "/games/meteorite-crisis/terms/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "f9d681b34b64de9c96f9ff621019c785de43ec0bdb0e1ec0a10bab761ae0b1fa",
+      "pass": true
+    },
+    {
+      "path": "/games/meteorite-crisis/support/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "d6a96aaa807fbb494fe951ad66ac94747e0e1fc45a2dfd7113cc062e4767394b",
+      "pass": true
+    },
+    {
+      "path": "/games/meteorite-crisis/delete-data/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "dc3712dc3ac4fa6363aa42731b3600841ed303a8d3bda21c64fff52ad5dd1271",
+      "pass": true
+    },
+    {
+      "path": "/zh/games/meteorite-crisis/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "a4d14997fdda6abd4100decca2c5aa93876c6741ad6decde95cfa9f64a89ad42",
+      "pass": true
+    },
+    {
+      "path": "/zh/games/meteorite-crisis/privacy/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "cd5c1ca34417e0de9efdf019c7636f0088c6cf3f3e638c5abf8292ae71976a0b",
+      "pass": true
+    },
+    {
+      "path": "/zh/games/meteorite-crisis/terms/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "f2f55b7a7f0041ecbce9038ebe3a9ba8c450cc1eb00951175c694930f1911340",
+      "pass": true
+    },
+    {
+      "path": "/zh/games/meteorite-crisis/support/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "25ad981d3ba6d62ea119ed6b1f3888e5255a89c0a051c4c4ca6444959417aa0b",
+      "pass": true
+    },
+    {
+      "path": "/zh/games/meteorite-crisis/delete-data/",
+      "status": 200,
+      "sameBytes": true,
+      "noindex": true,
+      "termsLink": true,
+      "sha256": "d02ae0140059fa9b5669bdc8ea21ae4106864f8d1c51572012eb2d85703b0da5",
+      "pass": true
+    }
+  ]
+}
