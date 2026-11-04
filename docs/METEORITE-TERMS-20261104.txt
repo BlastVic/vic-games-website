@@ -1,0 +1,44 @@
+Meteorite Crisis terms — source and validation notes
+Date: 2026-11-04 (Asia/Shanghai)
+
+Request: user in Google Play 发布相关 (01a19222-dd59-73d2-9a4d-727d16ae439d)
+asked the website project to make terms based on Coin and Idle, publish them,
+and return the address. Original user request verified with read_thread.
+
+Routes:
+/games/meteorite-crisis/terms/
+/zh/games/meteorite-crisis/terms/
+
+Structure: adapted from src/coin-notice.mjs pending-terms and
+src/red-ever-after.mjs terms, with Meteorite-specific functionality.
+Current development/test scope is visible; noindex retained until release
+facts are verified. No fabricated store age rating, production launch,
+cloud saves, player accounts or cash redemption.
+
+Read-only source checks in /Users/vic/Workshop/rea/projects/justarock:
+Assets/Scripts/Gameplay/CityProfileStore.cs — local progress/wallet/fulfilment.
+Assets/Scripts/Gameplay/CommerceCatalog.cs — virtual diamond products.
+Assets/Scripts/Gameplay/LocalCommerce.cs — optional shop reward and run double.
+Assets/Scripts/Gameplay/UnityIapCommerceProvider.cs — Google Play via Unity IAP,
+pending orders, validation/fulfilment; not a cloud-save recovery service.
+Assets/Scripts/Advertising/MeteoriteAdMob.cs — rewarded videos, UMP request gate,
+preloading and privacy options.
+Assets/Scripts/Telemetry/MeteoriteTelemetry.cs — independent default-off
+Analytics/Crashlytics choices; disabling reporting is not server deletion.
+Sources are evidence only; production build uses repository inputs only.
+
+Official references checked 2026-11-04:
+https://support.google.com/googleplay/answer/2479637
+https://play.google.com/about/play-terms/
+Store-specific refunds remain subject to store rules and mandatory rights.
+No blanket non-refund clause, mandatory arbitration or invented jurisdiction.
+
+New terms effective/updated 2026-11-04; existing privacy date 2026-10-31 preserved.
+Game resource navigation, player-information hub and shared terms list now link
+to the dedicated terms. Existing Search Console verification tag preserved.
+
+Validation: npm run build and npm run check pass (52 pages, 1464 references).
+Focused checks pass for bilingual routes, noindex, dates, headings and links.
+Browser checked English desktop 1280px and Chinese mobile 390px, language switch,
+purchase-section anchor and player-information navigation; no horizontal overflow.
+No new browser scripts, storage, embeds or tracking added.
