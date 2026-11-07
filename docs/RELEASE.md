@@ -169,3 +169,15 @@ Chrome 扩展未开放 file-URL 权限，直接工具上传失败；已通过原
 - 英文条款：https://vic-games.tigerywy.workers.dev/games/meteorite-crisis/terms/
 - 中文条款：https://vic-games.tigerywy.workers.dev/zh/games/meteorite-crisis/terms/
 - 结果返回「Google Play 发布相关」会话。此次仅发布网站文档；商店年龄分级、交易者声明及安装版本核验不由此页面确认。
+
+## Red Ever After 正式上线展示 — 2026-11-07
+
+- 将 Red Ever After 更新为 Google Play 已上线，并采用公开商店的中文名称「荆棘童话：暗黑放置RPG」。中英文首页、作品列表、下载入口、支持 FAQ 和 SEO 描述同步更新；首页玩法推荐按游戏标识匹配，避免发布排序改变后错配文案。
+- 加入最终确认的 22.6 秒宣传片（1080p H.264/AAC，约 4.5 MiB）、独立横版播放器与 YouTube 链接、八张最新商店截图，以及伙伴、装备、转生、语言和当前章节介绍。沿用站内原生播放器，无自动播放或第三方嵌入。素材来源、处理及音乐署名见 `RED-LAUNCH-ASSETS.json`。
+- 源码提交 `089bfb8` 已合入并推送 main。构建与检查通过：52 页面、1,482 内部链接/素材/锚点。发布包只含 103 个 dist 文件，逐字节匹配，每个文件均低于 25 MiB。
+- ZIP SHA256：`069d0f839e74a293e493cc417beb8f6bbd415cef5ec4f0951910505e5f6442b3`。
+- 已部署至现有 Cloudflare `vic-games`，版本 `0ac4cf31`，Ready / 100%；Bindings 0，Logs/Traces Disabled。通过内置浏览器复用已授权 Google 身份登录，未新增托管站点。
+- 本地浏览器检查中英文桌面/390px 手机布局、首页、B20 共享播放器回归；线上验证视频播放至 10 秒，1920×1080、22.6 秒，以及全部八张截图加载成功。
+- 19 个线上重点页面与新增素材逐字节匹配 dist，见 `validation/red-launch-content-20261107.json`。全站 64/64 HTTP 检查通过，见 `validation/live-check-red-launch-20261107.json`。
+- 中文：https://vic-games.tigerywy.workers.dev/zh/games/red-ever-after/
+- 英文：https://vic-games.tigerywy.workers.dev/games/red-ever-after/

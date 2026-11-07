@@ -1,0 +1,121 @@
+{
+  "origin": "https://vic-games.tigerywy.workers.dev",
+  "date": "2026-11-07T07:18:14.404Z",
+  "pass": true,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 9361,
+      "match": true
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "bytes": 9501,
+      "match": true
+    },
+    {
+      "path": "/games/",
+      "status": 200,
+      "bytes": 6437,
+      "match": true
+    },
+    {
+      "path": "/zh/games/",
+      "status": 200,
+      "bytes": 6532,
+      "match": true
+    },
+    {
+      "path": "/games/red-ever-after/",
+      "status": 200,
+      "bytes": 18052,
+      "match": true
+    },
+    {
+      "path": "/zh/games/red-ever-after/",
+      "status": 200,
+      "bytes": 17731,
+      "match": true
+    },
+    {
+      "path": "/support/",
+      "status": 200,
+      "bytes": 4873,
+      "match": true
+    },
+    {
+      "path": "/zh/support/",
+      "status": 200,
+      "bytes": 4870,
+      "match": true
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "bytes": 26508,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-01-dark-fairytale.webp",
+      "status": 200,
+      "bytes": 168052,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-02-forest-boss.webp",
+      "status": 200,
+      "bytes": 168942,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-03-story.webp",
+      "status": 200,
+      "bytes": 122072,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-04-chapel-boss.webp",
+      "status": 200,
+      "bytes": 221198,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-05-allies.webp",
+      "status": 200,
+      "bytes": 204502,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-06-map.webp",
+      "status": 200,
+      "bytes": 221492,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-07-equipment.webp",
+      "status": 200,
+      "bytes": 172744,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-launch-08-skills.webp",
+      "status": 200,
+      "bytes": 149432,
+      "match": true
+    },
+    {
+      "path": "/assets/video/red-trailer-poster.webp",
+      "status": 200,
+      "bytes": 179950,
+      "match": true
+    },
+    {
+      "path": "/assets/video/red-trailer.mp4",
+      "status": 200,
+      "bytes": 4760340,
+      "match": true
+    }
+  ]
+}
