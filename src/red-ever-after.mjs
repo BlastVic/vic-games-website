@@ -2,7 +2,7 @@
 export const redEverAfter = {
  slug:'red-ever-after', name:{en:'Red Ever After: Idle RPG',zh:'荆棘童话：暗黑放置RPG'}, short:'RED EVER AFTER',
  category:{en:'DARK FAIRYTALE RPG',zh:'暗黑童话 RPG'}, status:{en:'Available on Google Play',zh:'已在 Google Play 上线'}, state:'released',
- art:'red-ever-after.png', artAlt:{en:'A girl in a red cloak carrying a lantern into a dark forest',zh:'披着红斗篷的少女提灯走入黑森林'},
+ art:'showcase/red-cover-illustrated.webp', artAlt:{en:'Illustrated red-cloaked girl beside a moonlit blue forest',zh:'红斗篷少女与月光下的蓝色森林插画'},
  headline:{en:'The wolves are\nonly the beginning.',zh:'狼，\n只是故事的开始。'},
  description:{en:'Wear the red cloak. Battle twisted creatures, collect gear, and follow a trail of secrets through a fairytale that has forgotten how to end happily.',zh:'披上红斗篷，迎战扭曲的怪物，收集装备，沿着线索走入一个遗忘了幸福结局的童话。'},
  storeUrl:'https://play.google.com/store/apps/details?id=com.vicyang.redidle', downloadUrl:null, policy:'red-ever-after',

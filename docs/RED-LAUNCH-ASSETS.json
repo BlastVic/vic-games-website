@@ -61,5 +61,22 @@
       "bytes": 4760340,
       "sha256": "cb8adee78d5fdabcba1511fb96637c13b1a4effe5d548d102639be197af70556"
     }
-  ]
+  ],
+  "coverRefresh": {
+    "date": "2026-11-07",
+    "sourceDirectory": "/Users/vic/Workshop/red-ever-after/output/google-play-store-v2/other-resources/graphics",
+    "coverSource": "pc-cover-v2.png",
+    "iconSource": "store-icon-current-512.png",
+    "processing": "Reused approved store artwork, resized without cropping and encoded WebP90. Responsive CSS keeps character at 18% horizontal object-position. Removed obsolete realistic cover assets.",
+    "assets": [
+      {
+        "file": "public/assets/showcase/red-cover-illustrated.webp",
+        "sha256": "a7d794db02d1cf1d812878a1246599174a6123d3cf673a0d5117983bf6778cb7"
+      },
+      {
+        "file": "public/assets/showcase/red-icon-illustrated.webp",
+        "sha256": "95277825b21925c718a6363e31c7d7cc94683ae9b4f334ce93c61e576c121063"
+      }
+    ]
+  }
 }

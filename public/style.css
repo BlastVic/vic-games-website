@@ -33,3 +33,6 @@ html[lang=zh-Hans] .home-intro h1{font-size:clamp(2.7rem,4.8vw,4.5rem);line-heig
 .trailer-section.landscape{grid-template-columns:1fr;gap:32px;border-color:#65483d;background:radial-gradient(ellipse at 85% 10%,#703b303d,transparent 65%),#211c1b}
 .landscape .trailer-copy{max-width:850px}.landscape .trailer-player{width:100%;max-width:none}.landscape .trailer-player video{aspect-ratio:16/9;width:100%;height:auto}.landscape .trailer-tags span{border-color:#65483d;color:#ddbf8a}.landscape .trailer-copy h2{max-width:850px}
 @media(max-width:430px){html[lang="zh-Hans"] .theme-red .detail-hero h1{font-size:8.5vw}html[lang="zh-Hans"] .landscape .trailer-copy h2{font-size:7.8vw}}
+
+/* Keep the current illustrated heroine visible in portrait and card crops. */
+.theme-red .game-card-art .cover,.theme-red .detail-art>img,.theme-red .chapter-visual .cover{object-position:18% center}

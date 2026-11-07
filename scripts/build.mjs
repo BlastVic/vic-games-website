@@ -7,6 +7,8 @@ import {meteoriteDocument} from '../src/meteorite-crisis.mjs';
 import {coinDeletion} from '../src/coin-deletion.mjs';
 if (site.origin && (!/^https:\/\/[^/]+$/.test(site.origin))) throw Error('SITE_ORIGIN must be an HTTPS origin without a trailing slash');
 const out=new URL('../dist/',import.meta.url);
+// Rebuild generated output so removed public assets cannot survive a release.
+await rm(out,{recursive:true,force:true});
 await mkdir(out,{recursive:true});
 await cp(new URL('../public/',import.meta.url),out,{recursive:true});
 const supportScript = await readFile(new URL('../public/support.js',import.meta.url),'utf8');

@@ -76,7 +76,7 @@ export const showcases = {
   ])
  },
  'red-ever-after': {
-  theme:'red', cover:'showcase/red-cover.webp', icon:'showcase/red-icon.webp',
+  theme:'red', cover:'showcase/red-cover-illustrated.webp', icon:'showcase/red-icon-illustrated.webp',
   trailer:{
    file:'video/red-trailer.mp4', poster:'video/red-trailer-poster.webp',
    youtube:'https://www.youtube.com/watch?v=JhgSa37fEQw', landscape:true,
