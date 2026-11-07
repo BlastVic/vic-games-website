@@ -77,34 +77,53 @@ export const showcases = {
  },
  'red-ever-after': {
   theme:'red', cover:'showcase/red-cover.webp', icon:'showcase/red-icon.webp',
+  trailer:{
+   file:'video/red-trailer.mp4', poster:'video/red-trailer-poster.webp',
+   youtube:'https://www.youtube.com/watch?v=JhgSa37fEQw', landscape:true,
+   eyebrow:bi('A FAIRYTALE AFTER DARK','童话入夜之后'),
+   title:bi('She escaped the village.\nThe forest was waiting.','她逃离了村庄。\n森林，早已在等她。'),
+   description:bi('Turn the storybook pages, meet the creatures beyond the treeline, and glimpse the battles ahead. The official trailer brings illustrated storytelling and real gameplay together.','翻开故事书，遇见林间的异形，窥见前路的战斗。通过官方宣传片，走进插画叙事与实机战斗交织的暗黑童话。'),
+   tags:bi(['Illustrated story','Real gameplay'],['插画叙事','实机战斗']),
+   instruction:bi('Press play. Follow the red cloak into the unknown.','点击播放，跟随红斗篷走向未知。'),
+   label:bi('Official trailer','官方宣传片'),format:bi('22.6 seconds · English titles · Music only','22.6 秒 · 英文字幕 · 背景音乐'),
+   credit:{title:'Darkest Child var A',author:'Kevin MacLeod (incompetech.com)',source:'https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100784',license:'https://creativecommons.org/licenses/by/4.0/'},
+   creditNote:bi('Music excerpted, volume-adjusted and faded.','音乐经过节选、音量调整与淡入淡出。')
+  },
   hook:bi('Some stories refuse to end.','有些童话，不肯落幕。'),
-  summary:bi('A red cloak. A dark forest. A story still unfolding.','一袭红斗篷，一片黑森林，一段尚未结束的童话。'),
+  summary:bi('A red cloak, a scythe, and a forest full of secrets. A dark fairytale idle RPG.','红斗篷、镰刀与藏满秘密的森林。一段以放置 RPG 展开的暗黑童话。'),
   introTitle:bi('Follow the lantern into the dark.','循着灯火，走进童话的暗处。'),
-  intro:bi('A girl in a red cloak escapes into a forest where familiar fairytales have taken an unsettling turn. Travel between encounters on an illustrated map, face strange creatures, and piece together the story along the way. Between battles, your equipment, attributes and skills shape the next attempt.','披着红斗篷的少女逃进黑森林，熟悉的童话在这里变得陌生而不安。沿着手绘地图前进，迎战奇异生物，在旅途中一点点拼起故事。战斗之间，整理装备、分配属性、学习技能，为下一次出发做好准备。'),
-  highlights:bi([['EXPLORE','an illustrated world'],['BUILD','gear, attributes & skills'],['UNRAVEL','a dark fairytale']],[['探索','沿着手绘地图前进'],['成长','装备、属性与技能'],['追寻','童话背后的线索']]),
+  intro:bi('The girl escaped the village. The forest was waiting. Journey through haunted woods and ruined villages with a girl in a red cloak. Illustrated storybook scenes, narration and sound carry the mystery forward; automatic attacks leave you to shape her strength through equipment, attributes and skills. When the path grows dangerous, return to shelter, prepare, and try again.','少女逃离了村庄，森林早已在等她。跟随红斗篷走过幽暗林地与荒废村庄，在插画书页、旁白与声音中追寻谜团。角色自动攻击，而你通过装备、属性与技能决定她的成长。前路难行时，回到庇护所，做好准备，再次出发。'),
+  highlights:bi([['5','equipment slots'],['ALLIES','unlock supernatural companions'],['REBIRTH','return with lasting progression']],[['5','类装备栏位'],['伙伴','解锁超自然战友'],['转生','带着永久成长再次出发']]),
   steps:bi([
-   ['Choose your next encounter','Move through the chapter map and revisit stages when you need to prepare for a tougher fight.'],
-   ['Build your way forward','Compare weapons, headwear, shields, armor and accessories. Spend attribute and skill points to develop your character.'],
-   ['Turn another page','Battle creatures and bosses, return to shelter, and follow illustrated story sequences into the next part of the mystery.']
+   ['Choose your next encounter','Follow the illustrated chapter map through creatures and bosses. Attacks happen automatically; revisit stages to prepare for tougher fights.'],
+   ['Make the build your own','Equip weapons, shields, hoods, armor and accessories. Fuse spare equipment, spend attribute points and explore the skill tree. Unlock allies such as a shadow wolf and a small dragon.'],
+   ['Return with new strength','Rest at the shelter and use Rebirth for lasting progression. Turn another storybook page as you follow the mystery through the first four chapters.']
   ],[
-   ['选择下一场遭遇','沿章节地图推进；遇到更强的对手时，可以重访关卡，先积蓄力量。'],
-   ['搭配自己的成长路线','比较武器、头饰、盾牌、护甲与饰品，分配属性点和技能点，逐步培养角色。'],
-   ['翻向故事的下一页','迎战怪物与首领，在庇护所休整，跟随插画叙事继续追寻谜团。']
+   ['选择下一场遭遇','沿手绘章节地图前行，迎战怪物与首领。角色自动攻击；遇到强敌时，可以重访关卡，积蓄力量。'],
+   ['搭配自己的成长路线','装备武器、盾牌、兜帽、护甲与饰品，融合多余装备，分配属性点、探索技能树，还能解锁暗影狼与小龙等伙伴。'],
+   ['带着新的力量归来','在庇护所休整，通过转生获得永久成长。翻开故事书的新一页，在前四章旅途中继续追寻谜团。']
   ]),
+  galleryNote:bi('Official promotional screenshots with English captions and interface. Screens may differ by version, language and device.','官方宣传截图，使用英文文案与界面。画面可能因版本、语言和设备而不同。'),
   gallery:[
-   shot('red-battle',bi('Beyond the treeline','走入林间战场'),bi('The red-cloaked girl faces the creatures of the forest.','披着红斗篷的少女迎战森林中的生物。'),false),
-   shot('red-map',bi('A path through the Blackwood','穿过黑森林的路'),bi('An illustrated chapter map connects each encounter.','用手绘章节地图串起一场场遭遇。'),false),
-   shot('red-gear',bi('Prepare for the next fight','为下一战准备'),bi('Compare equipment and develop your attributes.','比较装备，培养角色属性。'),false),
-   shot('red-skills',bi('Choose how you grow','决定如何成长'),bi('Explore the skill tree and spend your skill points.','探索技能树，分配你的技能点。'),false)
+   shot('red-launch-01-dark-fairytale',bi('A fairytale gone dark','童话的暗面'),bi('Fight alongside supernatural allies in a forest full of strange creatures.','与超自然伙伴并肩，迎战森林中的奇异生物。'),false),
+   shot('red-launch-02-forest-boss',bi('Beyond the treeline','林间的强敌'),bi('Face the creatures that guard the path ahead.','迎战盘踞前路的强敌。'),false),
+   shot('red-launch-03-story',bi('Turn another page','翻开故事的新一页'),bi('Illustrated storybook scenes draw you deeper into the mystery.','在插画书页中走入更深的谜团。'),false),
+   shot('red-launch-04-chapel-boss',bi('Something waits within','深处，有什么在等待'),bi('The journey leads beyond the forest to new encounters.','旅程越过森林，迎来新的遭遇。'),false),
+   shot('red-launch-05-allies',bi('You are not alone','你并非独行'),bi('Unlock companions to fight beside the girl in the red cloak.','解锁伙伴，与红斗篷少女并肩战斗。'),false),
+   shot('red-launch-06-map',bi('Follow the trail','循着线索前进'),bi('Choose encounters across an illustrated chapter map.','沿手绘章节地图选择下一场遭遇。'),false),
+   shot('red-launch-07-equipment',bi('Prepare for the next fight','为下一战准备'),bi('Compare gear and shape your character’s attributes.','比较装备，培养角色属性。'),false),
+   shot('red-launch-08-skills',bi('Choose how you grow','决定如何成长'),bi('Spend skill points to develop your own path through the dark.','分配技能点，走出自己的成长路线。'),false)
   ],
   faq:bi([
-   ['Can I download the game now?','Red Ever After is preparing for closed testing. There is no public download or open test registration on this site yet.'],
-   ['Are these final release screenshots?','These are English-language captures from a development build. Art, interface and game balance may change before release.'],
-   ['What kind of game is it?','An Android idle RPG built around encounters, equipment and skill progression, with an illustrated dark-fairytale story.']
+   ['Where can I play?','Red Ever After: Idle RPG is available on Google Play for Android. Use the official store link on this page to check availability for your region and device.'],
+   ['Which languages are supported?','Interface text and story subtitles support 12 languages. Narration can be selected separately in English, Chinese or Japanese. The trailer and promotional screenshots shown here use English.'],
+   ['How much of the story is available?','The current story runs through Chapter 4 and ends with “To be continued.”'],
+   ['What do I control in an idle RPG?','Attacks happen automatically. You choose equipment, attributes and skills, unlock allies, revisit stages and use Rebirth to build lasting strength.']
   ],[
-   ['现在可以下载吗？','Red Ever After 正在准备封闭测试，本站暂未提供公开下载或开放测试报名。'],
-   ['页面上的画面是最终版本吗？','这些是开发版本的英文界面截图。正式发布前，美术、界面和数值可能继续调整。'],
-   ['这是一款什么类型的游戏？','这是一款面向 Android 的放置 RPG，围绕战斗、装备与技能成长展开，以插画演出讲述暗黑童话。']
+   ['在哪里可以下载？','Red Ever After: Idle RPG 已在 Google Play 上线，面向 Android 设备。通过本页官方商店链接，查看所在地区与设备的可用性。'],
+   ['支持哪些语言？','界面与剧情字幕支持 12 种语言。旁白可独立选择中文、英文或日文。本页宣传片与宣传截图使用英文。'],
+   ['目前可以体验多少剧情？','当前故事开放至第四章，并以「未完待续」收尾。'],
+   ['放置 RPG 中需要我做什么？','角色自动攻击。你负责搭配装备、属性与技能，解锁伙伴、重访关卡，并通过转生积累永久成长。']
   ])
  }
 };

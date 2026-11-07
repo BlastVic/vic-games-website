@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-07",
+  "sourceProject": "/Users/vic/Workshop/red-ever-after",
+  "sourceChat": "发布内容准备",
+  "sourceVideo": "output/google-play-trailer-v11-1440p/Red-Ever-After-Trailer-v11-1440p-22.6s.mp4",
+  "sourceScreenshots": "output/google-play-store-v2/upload-eight",
+  "youtube": "https://www.youtube.com/watch?v=JhgSa37fEQw",
+  "store": "https://play.google.com/store/apps/details?id=com.vicyang.redidle",
+  "releaseEvidence": "User confirmed launch; public Google Play listing observed with install button on 2026-11-07. Chinese title: 荆棘童话：暗黑放置RPG.",
+  "processing": "Video scaled to 1920x1080, H.264 CRF23 medium, AAC160k, faststart. Poster frame at21s WebP88. Eight screenshots resized to900x1600 WebP86 without cropping.",
+  "hosting": "Same-origin native player, preload none, no autoplay or third-party embed; external YouTube link.",
+  "music": "Darkest Child var A — Kevin MacLeod (incompetech.com), CC BY4.0, excerpted, volume-adjusted and faded. Credits visible on both pages.",
+  "assets": [
+    {
+      "file": "public/assets/showcase/red-launch-01-dark-fairytale.webp",
+      "bytes": 168052,
+      "sha256": "499c24f3886f8a71d152348f780a75b705fdeb857841096e6b75924e4b840dbd"
+    },
+    {
+      "file": "public/assets/showcase/red-launch-02-forest-boss.webp",
+      "bytes": 168942,
+      "sha256": "74f203132de71bd0593bcb792f40210142f11b6b7b544dc0112b98116758f9b8"
+    },
+    {
+      "file": "public/assets/showcase/red-launch-03-story.webp",
+      "bytes": 122072,
+      "sha256": "974bef412f91c095937b161f1f98120eb9010df14ca2b3ad2b6a86f248b35032"
+    },
+    {
+      "file": "public/assets/showcase/red-launch-04-chapel-boss.webp",
+      "bytes": 221198,
+      "sha256": "1505eb85bf1836f668f5b1a8ae4d7ab87b1c1d6b743886f4d7d156be0831e59e"
+    },
+    {
+      "file": "public/assets/showcase/red-launch-05-allies.webp",
+      "bytes": 204502,
+      "sha256": "df9be0f7f26f0dc78518cd74a875c4d57e53ec6004d1f1956f3742349a7e8d43"
+    },
+    {
+      "file": "public/assets/showcase/red-launch-06-map.webp",
+      "bytes": 221492,
+      "sha256": "989a4071bca5320d9da83e54661db797a68942761994d6696e7dab18a634ac5f"
+    },
+    {
+      "file": "public/assets/showcase/red-launch-07-equipment.webp",
+      "bytes": 172744,
+      "sha256": "169250dcf83cc1fbb8c040fcc2491355d31b3e447b81f7fe401fd57ec42b991e"
+    },
+    {
+      "file": "public/assets/showcase/red-launch-08-skills.webp",
+      "bytes": 149432,
+      "sha256": "8b91155d5bc75b45ff9ba7ad4328e3b8bb69c1727b82a777323b5dc80ed0f035"
+    },
+    {
+      "file": "public/assets/video/red-trailer-poster.webp",
+      "bytes": 179950,
+      "sha256": "d63561e36580dcad937ab3a9e9a42048097feaaf4500c2d8079ba62498e9bbbc"
+    },
+    {
+      "file": "public/assets/video/red-trailer.mp4",
+      "bytes": 4760340,
+      "sha256": "cb8adee78d5fdabcba1511fb96637c13b1a4effe5d548d102639be197af70556"
+    }
+  ]
+}

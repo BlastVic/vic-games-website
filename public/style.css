@@ -28,3 +28,8 @@ html[lang=zh-Hans] .home-intro h1{font-size:clamp(2.7rem,4.8vw,4.5rem);line-heig
 @media(max-width:1050px){.trailer-section{padding:36px;gap:36px;grid-template-columns:minmax(0,1fr) minmax(0,310px)}.trailer-copy h2{font-size:2.8rem}}
 @media(max-width:760px){.trailer-section{grid-template-columns:1fr;gap:30px;padding:30px;margin-top:30px}.trailer-copy{max-width:none}.trailer-copy h2{font-size:2.6rem}.trailer-player{max-width:340px}.trailer-tags{margin:20px 0}.trailer-credits{margin-top:16px}}
 @media(max-width:400px){.trailer-section{padding:24px 18px}.trailer-copy h2{font-size:2.3rem}.trailer-player figcaption{font-size:.65rem}}
+
+/* Landscape trailers retain native controls without loading a third-party player. */
+.trailer-section.landscape{grid-template-columns:1fr;gap:32px;border-color:#65483d;background:radial-gradient(ellipse at 85% 10%,#703b303d,transparent 65%),#211c1b}
+.landscape .trailer-copy{max-width:850px}.landscape .trailer-player{width:100%;max-width:none}.landscape .trailer-player video{aspect-ratio:16/9;width:100%;height:auto}.landscape .trailer-tags span{border-color:#65483d;color:#ddbf8a}.landscape .trailer-copy h2{max-width:850px}
+@media(max-width:430px){html[lang="zh-Hans"] .theme-red .detail-hero h1{font-size:8.5vw}html[lang="zh-Hans"] .landscape .trailer-copy h2{font-size:7.8vw}}
