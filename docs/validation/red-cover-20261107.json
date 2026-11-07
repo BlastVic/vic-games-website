@@ -1,0 +1,56 @@
+{
+  "origin": "https://vic-games.tigerywy.workers.dev",
+  "pass": true,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "/games/red-ever-after/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "/zh/games/red-ever-after/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-cover-illustrated.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-icon-illustrated.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "/assets/red-ever-after.png",
+      "status": 404,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-cover.webp",
+      "status": 404,
+      "match": true
+    },
+    {
+      "path": "/assets/showcase/red-icon.webp",
+      "status": 404,
+      "match": true
+    }
+  ]
+}

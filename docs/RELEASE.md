@@ -181,3 +181,9 @@ Chrome 扩展未开放 file-URL 权限，直接工具上传失败；已通过原
 - 19 个线上重点页面与新增素材逐字节匹配 dist，见 `validation/red-launch-content-20261107.json`。全站 64/64 HTTP 检查通过，见 `validation/live-check-red-launch-20261107.json`。
 - 中文：https://vic-games.tigerywy.workers.dev/zh/games/red-ever-after/
 - 英文：https://vic-games.tigerywy.workers.dev/games/red-ever-after/
+
+## Red Ever After 新画风主图 — 2026-11-07
+
+- 按用户反馈移除旧写实风主图，复用游戏最新商店插画 `pc-cover-v2.png` 及当前商店图标。中英文首页卡片、专题、游戏页、相关游戏卡片和游戏分享图统一引用新版 WebP，CSS 按人物位置适配取景。
+- 源码 `ba40f84` 已合入 main。构建先清理生成目录，避免删除的旧素材残留于发布包；构建与检查通过：52 页、1,482 引用。ZIP 仅含 102 个 dist 文件，SHA256 `5430e49e67d7b39e558432dc28dd2259e1fd56f221ce7d340cd8279ce46fdd8d`。
+- 已上传现有 Cloudflare 官网。浏览器核验桌面游戏页、英文/中文首页及 390px 手机卡片；线上首页呈现新版插画。中英文首页、游戏页、CSS、新主图和图标均与 dist 字节一致，三个旧素材 URL 均返回 404，见 `validation/red-cover-20261107.json`。
