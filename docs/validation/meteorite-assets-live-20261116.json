@@ -1,0 +1,136 @@
+{
+  "time": "2026-11-16T13:25:50.916Z",
+  "pass": true,
+  "results": [
+    {
+      "file": "assets/showcase/meteor-01-sakura-home.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-02-energy-ring.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-03-snow-town.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-04-smash-buildings.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-05-mechanical.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-06-frozen-dash.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-07-meteor-dash.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-08-destruction.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-cover.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/showcase/meteor-icon.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/video/meteor-trailer-poster.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/video/meteor-trailer.mp4",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "games/meteorite-crisis/delete-data/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "games/meteorite-crisis/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "games/meteorite-crisis/privacy/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "games/meteorite-crisis/support/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "games/meteorite-crisis/terms/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "style.css",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "zh/games/meteorite-crisis/delete-data/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "zh/games/meteorite-crisis/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "zh/games/meteorite-crisis/privacy/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "zh/games/meteorite-crisis/support/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "zh/games/meteorite-crisis/terms/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "zh/index.html",
+      "status": 200,
+      "match": true
+    }
+  ]
+}
