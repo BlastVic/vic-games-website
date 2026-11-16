@@ -2,6 +2,50 @@
 const bi = (en, zh) => ({en, zh});
 const shot = (file, title, caption, localized = true) => ({file, title, caption, localized});
 export const showcases = {
+ 'meteorite-crisis': {
+  theme:'meteor',cover:'showcase/meteor-cover.webp',icon:'showcase/meteor-icon.webp',
+  hook:bi('Make your next launch count.','下一次，冲得更远。'),
+  summary:bi('Launch a meteor. Smash a city. Come back stronger.','发射陨石，撞碎城市，带着新的力量再次出发。'),
+  introTitle:bi('The city is your playground.','把整座城市，变成你的游乐场。'),
+  intro:bi('Pull back, charge up and let your meteor fly. Steer through streets, break obstacles within your power and keep your momentum alive. Every run earns coins for your next upgrade. From hillside roads to cherry blossoms and snowy valleys, a different route can make all the difference.','拉满弹弓，让陨石飞出去。沿街道左右操控，撞开能力范围内的障碍，把握冲刺时机，保持前进的势头。每次挑战获得的金币，都能用于下一轮升级。从山城坡道到樱花街区，再到冰雪山谷，换条路线，就可能多走一段。'),
+  highlights:bi([['3','distinct destinations'],['LAUNCH','charge, steer & dash'],['UPGRADE','meteor, launcher & income']],[['3','种城市风景'],['发射','蓄力、转向与冲刺'],['升级','陨石、发射器与收益']]),
+  trailer:{file:'video/meteor-trailer.mp4',poster:'video/meteor-trailer-poster.webp',youtube:'https://www.youtube.com/watch?v=_qVEm-ad0ng',landscape:true,
+   eyebrow:bi('ACTUAL GAMEPLAY','实机画面'),title:bi('Aim. Launch.\nSmash.','瞄准，发射。\n一路撞过去。'),
+   description:bi('A quick ride through three destinations, powerful launchers and crumbling buildings. Watch the official gameplay trailer, then choose where to make your first impact.','穿过三种城市，体验各式发射器，看建筑在撞击中碎裂。先用一段官方实机宣传片，感受下一次发射的冲击力。'),
+   tags:bi(['Three destinations','3D destruction'],['三种城市风景','3D 破坏']),instruction:bi('Press play for a first look at the action.','点击播放，看看真正的游戏现场。'),label:bi('Official gameplay trailer','官方实机宣传片'),format:bi('18.6 seconds · English titles','18.6 秒 · 英文字幕')},
+  steps:bi([
+   ['Charge your launch','Pull back to build power, release to launch and steer left or right to find a path through the streets.'],
+   ['Keep the momentum','Choose obstacles your meteor can break. Chain impacts together and time your dash to push deeper into the city.'],
+   ['Build a stronger next run','Spend earned coins on your meteor, launcher and income. Discover fiery, icy and mechanical meteor designs and try different launchers.']
+  ],[
+   ['先蓄力，再出发','拖动蓄力、松开发射，左右操控陨石，在街道之间找到适合自己的路线。'],
+   ['让势头延续下去','选择陨石能够撞开的障碍，积累连续破坏，抓住冲刺时机，向更远的街区推进。'],
+   ['为下一次发射升级','使用获得的金币升级陨石、发射器与收益。发现火焰、冰霜、机械等陨石外观，尝试不同的发射器。']
+  ]),
+  galleryNote:bi('Official promotional screenshots with English captions and interface, captured from the game. Visuals may vary by version and device.','官方宣传截图，采用游戏实机画面与英文文案。显示效果可能因版本与设备而不同。'),
+  gallery:[
+   shot('meteor-01-sakura-home',bi('A fresh start in Tokyo','从樱花街区出发'),bi('Prepare your next run among Tokyo’s cherry blossoms.','在东京的樱花景色中，为下一次发射做好准备。'),false),
+   shot('meteor-02-energy-ring',bi('Charge up the energy ring','拉满环形发射器'),bi('A charged launcher sends your meteor toward Chongqing’s streets.','蓄满能量，将陨石送向重庆的山城街道。'),false),
+   shot('meteor-03-snow-town',bi('A winter detour','穿过雪地小镇'),bi('Explore Narvik’s snowy streets and colorful houses.','在纳尔维克的雪地街道与彩色房屋间穿行。'),false),
+   shot('meteor-04-smash-buildings',bi('Make an impact','撞出一条路'),bi('Break through buildings and keep moving.','撞碎前方建筑，继续向前。'),false),
+   shot('meteor-05-mechanical',bi('Mechanical mayhem','机械陨石登场'),bi('Bring a different meteor design to your next run.','换一种陨石外观，开启新的挑战。'),false),
+   shot('meteor-06-frozen-dash',bi('Power through the valley','冲过冰雪山谷'),bi('Use a dash to power through the snowy route.','把握冲刺时机，穿越雪地路线。'),false),
+   shot('meteor-07-meteor-dash',bi('Light up the hillside','点燃山城街道'),bi('Build momentum through Chongqing’s hillside neighborhoods.','沿重庆的山城街区积累前进的势头。'),false),
+   shot('meteor-08-destruction',bi('Leave your mark','留下你的破坏轨迹'),bi('Watch the city break apart around your meteor.','看城市建筑在陨石身旁碎裂。'),false)
+  ],
+  faq:bi([
+   ['Where can I play?','Meteorite Crisis: City Smash is available on Google Play for Android. Check the official listing for regional and device availability.'],
+   ['Which places can I explore?','The game features three distinctive destinations: Chongqing, Tokyo and Narvik, each with its own scenery and routes.'],
+   ['How do the controls work?','Drag to charge and release to launch. Steer left or right, choose breakable obstacles and time your dash to keep moving.'],
+   ['Are there ads or purchases?','The game includes optional in-app purchases and rewarded video ads. See this game’s own privacy and player-resource pages for details.']
+  ],[
+   ['在哪里可以下载？','石不可挡：陨石冲刺与城市破坏已在 Google Play 上线，面向 Android 设备。地区与设备可用性请查看官方商店页面。'],
+   ['可以探索哪些场景？','目前包含重庆、东京与纳尔维克三种城市风景，每个目的地都有各自的景观与路线。'],
+   ['如何操作？','拖动蓄力、松开发射，再左右操控陨石。选择可以撞开的障碍，把握冲刺时机，保持前进。'],
+   ['有广告或内购吗？','游戏包含可选应用内购买与激励视频广告。具体说明请查看本游戏专属的隐私与玩家服务页面。']
+  ])
+ },
+
  b20: {
   theme:'robot', cover:'showcase/b20-cover.webp', icon:'showcase/b20-icon.webp',
   trailer:{

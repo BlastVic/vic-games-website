@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-16",
+  "sourceProject": "/Users/vic/Workshop/meteorite-crisis",
+  "screenshots": "Publishing/GooglePlay/Store-submit-20261115/phone-en-US",
+  "graphics": "Publishing/GooglePlay/Store-release-20261115/graphics",
+  "video": "Publishing/GooglePlay/Trailer-20261115/Meteorite-Crisis-Official-Trailer-1440p.mp4",
+  "youtube": "https://www.youtube.com/watch?v=_qVEm-ad0ng",
+  "store": "https://play.google.com/store/apps/details?id=com.vicyang.meteorite",
+  "sourceCopy": "Publishing/GooglePlay/Store-release-20261115/en-US/full.txt and zh-CN/full.txt",
+  "processing": "Screenshot WebP87 resized900x1600, cover1920x1080, icon256px. Video H264 CRF23 medium 1920x1080 AAC160k faststart, original edit/audio retained; poster at1.1s.",
+  "hosting": "Same-origin native video controls, no autoplay, preload none, external YouTube link.",
+  "assets": [
+    {
+      "file": "public/assets/showcase/meteor-01-sakura-home.webp",
+      "bytes": 149022,
+      "sha256": "db2ca12ce90bc70ea7fb911b44d14b72bdbe0f47719a86a53c7f7b3d911e20bc"
+    },
+    {
+      "file": "public/assets/showcase/meteor-02-energy-ring.webp",
+      "bytes": 110078,
+      "sha256": "70f19469615eb2fc2e4c5fe62ffdbe50a5caf88e4040408d5494345b5a0b09be"
+    },
+    {
+      "file": "public/assets/showcase/meteor-03-snow-town.webp",
+      "bytes": 107292,
+      "sha256": "f0e20d2d9cebef01042e18e449a0ba07a3965a536922d43fdf6a815a8fe2f970"
+    },
+    {
+      "file": "public/assets/showcase/meteor-04-smash-buildings.webp",
+      "bytes": 134774,
+      "sha256": "be992ce983596f440080cf7c7da2ad1ae1923490c6aad5741cac1018ae6ac5fc"
+    },
+    {
+      "file": "public/assets/showcase/meteor-05-mechanical.webp",
+      "bytes": 156346,
+      "sha256": "4d29eb243b674e9aa31e6b4ef90af62c4ae1f5473c4b9dbbcee5946f71ff595c"
+    },
+    {
+      "file": "public/assets/showcase/meteor-06-frozen-dash.webp",
+      "bytes": 113310,
+      "sha256": "dda60cdb664d98c5616907601ea5165fd2f517e972b47d7abe544c700ae96276"
+    },
+    {
+      "file": "public/assets/showcase/meteor-07-meteor-dash.webp",
+      "bytes": 120426,
+      "sha256": "3eb94492d86e3ae47d3590472be90eb427fa18f2280ad5e7280c07c6572b4224"
+    },
+    {
+      "file": "public/assets/showcase/meteor-08-destruction.webp",
+      "bytes": 92956,
+      "sha256": "bad7acfef59804e791055fddc0c5fc83037890062881c755d541e65b923dadc0"
+    },
+    {
+      "file": "public/assets/showcase/meteor-cover.webp",
+      "bytes": 139664,
+      "sha256": "1e08bc751a9eb6615dfe1d3cde9577da0d19aabfb588ff47e94aa6be44f38d94"
+    },
+    {
+      "file": "public/assets/showcase/meteor-icon.webp",
+      "bytes": 15058,
+      "sha256": "e4023dbd0199614684b1e08bc142cf591d0c6c32e85142073e7328c2f696b42a"
+    },
+    {
+      "file": "public/assets/video/meteor-trailer-poster.webp",
+      "bytes": 142874,
+      "sha256": "5dbc74628fa39be981e07b8ab2c8e30777caf4115b8d5d65d0420e4d9b42e608"
+    },
+    {
+      "file": "public/assets/video/meteor-trailer.mp4",
+      "bytes": 7606053,
+      "sha256": "0b1c534856038e2b67249ab134bc78b0745936f91e11d7eda0668f990b09bedf"
+    }
+  ]
+}

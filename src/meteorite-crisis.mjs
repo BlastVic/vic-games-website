@@ -1,12 +1,16 @@
 import {meteoriteTerms} from './meteorite-terms.mjs';
-// Player-resource records for development builds; no public-release or showcase claim.
+// Public game presentation and independently scoped player-resource documents.
 const bi=(en,zh)=>({en,zh});
 export const meteoriteCrisis={
- slug:'meteorite-crisis',name:bi('Meteorite Crisis','石不可挡（Meteorite Crisis）'),
+ slug:'meteorite-crisis',name:bi('Meteorite Crisis: City Smash','石不可挡：陨石冲刺与城市破坏'),short:'METEORITE CRISIS',
  packageName:'com.vicyang.meteorite',policy:'meteorite-crisis',
- state:'development',storeUrl:null,documents:['privacy','terms','support','delete-data'],
+ category:bi('3D DESTRUCTION ARCADE','3D 城市破坏'),status:bi('Available on Google Play','已在 Google Play 上线'),
+ state:'released',storeUrl:'https://play.google.com/store/apps/details?id=com.vicyang.meteorite',documents:['privacy','terms','support','delete-data'],
  documentNoindex:true,
- description:bi('Terms, privacy, data choices and support for Meteorite Crisis Android development and test builds.','石不可挡 Android 开发与测试版本的服务条款、隐私说明、数据选择及玩家支持。')
+ art:'showcase/meteor-cover.webp',artAlt:bi('A fiery meteor crashing toward a stylized city','燃烧的陨石冲向风格化城市'),
+ headline:bi('A little rock.\nA big impact.','一颗陨石，\n撞出大场面。'),
+ description:bi('Charge up, launch and tear through the city. Steer your meteor through Chongqing, Tokyo and Narvik, upgrade between runs and find out how far your next impact can take you.','蓄力发射，一路撞向城市深处。操控陨石穿越重庆、东京与纳尔维克，在挑战之间升级，让下一次冲击走得更远。'),
+ facts:bi(['Android','3 destinations','Launch · Steer · Dash'],['Android','3 种城市场景','发射 · 转向 · 冲刺'])
 };
 
 export function meteoriteDocument(type,{lang,site,g,url}){
