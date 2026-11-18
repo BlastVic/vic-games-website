@@ -31,3 +31,13 @@ Validation before deployment
 npm run build: 52 static pages.
 npm run check: 1,632 internal links/assets/fragments, headings, metadata and placeholders pass.
 Source diff retains game marketing and original policy date; updates services, version caveats, independent choices, advertising ID, provider links, historical records and deletion limits.
+
+Production deployment verified
+- Cloudflare dashboard: 2489a806, Ready, 100% traffic.
+- Deployed source: 7824f3a (implementation 334f225 plus cross-reference correction).
+- ZIP SHA256: b98a44083d4301bb956983335f9bb97d01784d9f33a4b76a60c7226665af1b10; 114 dist-only files.
+- 64/64 live route/header/asset checks pass.
+- All eight EN/ZH Red privacy/terms/deletion/support pages return HTTP 200 and exactly match local build bytes.
+- Native Chrome: Chinese privacy and English terms local layout inspected; deployed Chinese revision and advertising/Firebase sections visibly verified.
+- Stable URLs: https://vic-games.tigerywy.workers.dev/games/red-ever-after/privacy/ and /terms/; Chinese equivalents under /zh/.
+- Existing unrelated docs/validation/live-check.json changes preserved and not staged.

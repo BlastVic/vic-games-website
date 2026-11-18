@@ -1,0 +1,63 @@
+{
+  "time": "2026-11-18T05:05:17.134Z",
+  "sourceCommit": "7824f3a",
+  "pass": true,
+  "findings": [
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/games/red-ever-after/privacy/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "6b0325abdd60d0046055b7569d1778013247f1902de00ae951e87fbc3cc7c4f3",
+      "revision": true
+    },
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/games/red-ever-after/terms/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "299234145aea60457a68864d78da660acf31a47f33e64381a2719820132de78a",
+      "revision": true
+    },
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/games/red-ever-after/delete-data/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "5ead6f8bd4bea573f0f1c2d696b903eb8a639fb9a69f0c444cb47f56282540b5",
+      "revision": true
+    },
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/games/red-ever-after/support/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "6e23c1aac6b1325397ac8844ece0ed2bf88cbb1fdfeab39f989e0388b081d16a",
+      "revision": true
+    },
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/zh/games/red-ever-after/privacy/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "4d01b3982f9d34944e5c9c245f9e286fbcb8c5d412bc41db9d626913a488d242",
+      "revision": true
+    },
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/zh/games/red-ever-after/terms/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "4b2d4f549cabfc41d886c9c201df2f5e0258de5f82f7ee0cfdbf8f34ab80da77",
+      "revision": true
+    },
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/zh/games/red-ever-after/delete-data/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "2cf76d54b72cce503a85df6feabae460085fdd923aa3855bffd1403ceb8d716e",
+      "revision": true
+    },
+    {
+      "url": "https://vic-games.tigerywy.workers.dev/zh/games/red-ever-after/support/",
+      "status": 200,
+      "byteMatch": true,
+      "sha256": "ac5d634f252cc845f92a35d72e1c255d476e905ecb13bb8d218b7fad4da47a16",
+      "revision": true
+    }
+  ]
+}
