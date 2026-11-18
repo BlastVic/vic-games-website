@@ -1,0 +1,33 @@
+Red Ever After policy revision — 2026-11-18
+
+Scope
+- Update existing bilingual privacy, terms and deletion notices at stable red-ever-after paths.
+- Preserve original October 21, 2026 notice date; add November 18 revision date.
+- Android release label 1.0.9.11: internal test available; production submitted/in review, not confirmed public. Chrome Play publishing overview independently observed this state on November 18.
+- No game-showcase, chapter-five or other-game policy changes.
+
+Local implementation evidence (sibling game inspected, not a build dependency)
+- Docs/Production/LevelPlay.txt: migration, pinned SDKs and version/network caveats.
+- Assets/Scripts/Services/Ads/Runtime/AdvertisingPreferences.cs: independent persisted default-off personalization choice.
+- Assets/Scripts/Services/Ads/MediationProxy/LevelPlayMediationProxy.cs: GDPR choice before initialization and changes; CCPA=true; COPPA=false; ad preloading; old cached objects retired on choice change.
+- Assets/Scripts/Services/Telemetry/FairytaleTelemetry.cs: separate default-off analytics/crash choices, denied ad consent flags, disabled analytics resets local analytics data; retries settings failures.
+- Assets/Scripts/Services/Telemetry/TelemetryEvent.cs: fixed gameplay, purchase and rewarded-ad event schema.
+- Assets/Scripts/UI/Controllers/StorybookDataSharingUI.cs: first-launch decline and separate later choices.
+- Assets/Editor/BuildPostprocess/FairytaleFirebaseAndroidBuild.cs: Firebase default-off flags and AAID collection disabled; AD_ID permission retained for advertising.
+- Release merged AndroidManifest.xml: package com.vicyang.redidle, versionName 1.0.9/versionCode 11, AD_ID present, no ACCESS_FINE_LOCATION.
+
+Official references checked November 18, 2026
+https://docs.unity.com/en-us/grow/levelplay/sdk/unity/regulation-advanced-settings
+https://docs.unity.com/en-us/grow/levelplay/sdk/unity/networks/guides/mintegral
+https://unity.com/legal/game-player-and-app-user-privacy-policy
+https://www.mintegral.com/en/privacy#privacy-policy-of-the-mintegral-services
+https://dev.mintegral.com/document/term-en.pdf
+https://firebase.google.com/support/privacy
+https://developers.google.com/admob/android/privacy/play-data-disclosure
+
+The Mintegral privacy landing page exposed only its shell to web extraction; the official April 29, 2026 publisher terms/data-transfer annex (p36) supplies corroborating data categories. No unsupported claim that all listed platform-wide data is collected by this specific game. Unity documents network responsibility for handling do-not-sell signals, not a universal no-collection guarantee. Firebase documents 90-day Crashlytics retention before removal begins; no unverified Analytics property duration is asserted. Existing support-response/retention commitments remain unchanged.
+
+Validation before deployment
+npm run build: 52 static pages.
+npm run check: 1,632 internal links/assets/fragments, headings, metadata and placeholders pass.
+Source diff retains game marketing and original policy date; updates services, version caveats, independent choices, advertising ID, provider links, historical records and deletion limits.
