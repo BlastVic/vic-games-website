@@ -13,3 +13,12 @@ https://docs.unity.com/en-us/grow/is-ads/legal-resources/google-data-safety-ques
 https://dev.mintegral.com/document/term-en.pdf (printed p36)
 
 Validation: build 52 pages; check 1632 links/assets/fragments. Native Chrome local Chinese policy supplement layout verified. Existing unrelated docs/validation/live-check.json preserved.
+
+Production deployment receipt:
+- Source commit: 39c60bf (merged and pushed to main).
+- Cloudflare version: 2a20d5d2; Ready; 100% production traffic.
+- Release: 114 dist-only files; ZIP SHA256 5d8a64d4bbe8adeb21d6ded1d29ab98af71e2614e84c93771ff834a0467c2af3.
+- Live validation: 64/64 checks passed; six EN/ZH privacy, terms and deletion pages HTTP 200 and byte-identical to dist.
+- Reports: docs/validation/red-sdk-live-20261118.json and docs/validation/red-sdk-content-20261118.json.
+- Native Chrome live Chinese SDK disclosure section visually checked.
+- Public origin: https://vic-games.tigerywy.workers.dev

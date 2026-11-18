@@ -1,0 +1,38 @@
+{
+  "sourceCommit": "39c60bf",
+  "deployment": "2a20d5d2",
+  "time": "2026-11-18T05:16:37.219Z",
+  "pass": true,
+  "results": [
+    {
+      "path": "games/red-ever-after/privacy/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "games/red-ever-after/terms/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "games/red-ever-after/delete-data/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "zh/games/red-ever-after/privacy/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "zh/games/red-ever-after/terms/",
+      "status": 200,
+      "match": true
+    },
+    {
+      "path": "zh/games/red-ever-after/delete-data/",
+      "status": 200,
+      "match": true
+    }
+  ]
+}
