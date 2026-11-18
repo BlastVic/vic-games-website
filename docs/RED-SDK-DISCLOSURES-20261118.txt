@@ -1,0 +1,15 @@
+Red SDK disclosure supplement — 2026-11-18
+
+Public changes: bilingual Red privacy only, plus shared version notice wording from submitted-for-review to not-yet-approved. Original/revision dates retained. No showcase changes.
+- SDK-generated/service-specific user IDs distinguished from developer login accounts.
+- Unity Ads purchase-history/transaction-related processing distinguished from payment-card/bank-account details.
+- Unity Ads app diagnostics collection/sharing contrasted with its no-crash-logs disclosure; LevelPlay/ironSource diagnostics collected/not shared; Mintegral crash-related device events may be transferred.
+- Firebase optional analytics/crash switches do not control other SDK identifiers, purchase processing, measurement or diagnostics; personalization-off is not a universal no-collection setting.
+- Provider-specific and integration/configuration limits retained; no claim every SDK behaves identically.
+
+Official sources checked:
+https://docs.unity.com/en-us/grow/ads/privacy/google-data-safety
+https://docs.unity.com/en-us/grow/is-ads/legal-resources/google-data-safety-questionnaire
+https://dev.mintegral.com/document/term-en.pdf (printed p36)
+
+Validation: build 52 pages; check 1632 links/assets/fragments. Native Chrome local Chinese policy supplement layout verified. Existing unrelated docs/validation/live-check.json preserved.
